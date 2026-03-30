@@ -211,7 +211,9 @@ def scrape_detail(inmate_id: str) -> dict:
     for img in soup.select("#Photos img"):
         alt = img.get("alt", "")
         if alt:
-            photos.append(alt)
+            # Strip "Photo " prefix if present (alt text is like "Photo 1C52LH0A")
+            photo_id = alt.replace("Photo ", "").strip()
+            photos.append(photo_id)
     detail["photo_ids"] = photos
 
     # ── Booking info ──

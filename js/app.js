@@ -173,6 +173,13 @@ function renderGrid(searchTerm = '') {
 
   let filtered = [...allBookings];
 
+  // Sort newest first
+  filtered.sort((a, b) => {
+    const da = new Date(a.booking_date || 0);
+    const db = new Date(b.booking_date || 0);
+    return db - da;
+  });
+
   // Apply date filter
   if (currentFilter === 'today') {
     filtered = filtered.filter(b => isToday(b.booking_date));
