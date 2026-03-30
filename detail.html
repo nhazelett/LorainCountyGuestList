@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Booking Detail - Lorain County Bookings</title>
+<meta name="description" content="Booking details from Lorain County, Ohio public records.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="/" class="logo">Lorain<span>Bookings</span></a>
+  <div class="nav-right">
+    <div class="nav-links">
+      <a href="/">Recent</a>
+      <a href="#">About</a>
+    </div>
+    <input class="nav-search" type="text" id="searchInput" placeholder="Search by name..." autocomplete="off">
+  </div>
+</nav>
+
+<!-- DETAIL CONTENT -->
+<div class="detail-section" id="detailContent">
+  <a href="/" class="back-link">&larr; Back to all bookings</a>
+  <div class="detail-layout">
+    <div class="detail-photo" id="detailPhoto">
+      <div class="photo-placeholder">
+        <svg width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="#3b3f52" stroke-width="1">
+          <circle cx="12" cy="8" r="4"/><path d="M4 21v-1a6 6 0 0112 0v1"/>
+        </svg>
+      </div>
+    </div>
+    <div class="detail-info">
+      <div class="detail-header">
+        <h2 id="detailName">Loading...</h2>
+        <div class="detail-date" id="detailMeta"></div>
+      </div>
+      <div class="info-grid" id="detailGrid"></div>
+      <div class="charges-section" id="chargesSection">
+        <h3>Charges</h3>
+        <div id="chargesList"></div>
+      </div>
+      <div class="bonds-section" id="bondsSection" style="display:none;">
+        <h3>Bond Information</h3>
+        <div id="bondsList"></div>
+      </div>
+      <div class="disclaimer">
+        This information is sourced from publicly available Lorain County booking records.
+        All individuals are presumed innocent until proven guilty in a court of law.
+        If you believe information is inaccurate or a case has been resolved,
+        <a href="#">request a review</a>.
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <p>Data sourced from publicly available Lorain County booking records. All individuals are presumed innocent until proven guilty.</p>
+  </div>
+</footer>
+
+<script src="js/app.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const params = new URLSearchParams(window.location.search);
+  const id = params.get('id');
+  if (id) loadDetail(id);
+  else window.location.href = '/';
+});
+</script>
+</body>
+</html>
