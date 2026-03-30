@@ -30,6 +30,9 @@ BOOKINGS_FILE = DATA_DIR / "bookings.json"
 
 # How many days back to search (covers weekends/holidays)
 LOOKBACK_DAYS = 3
+# For backfill mode: how far back to go (in days) and chunk size
+BACKFILL_DAYS = 365
+BACKFILL_CHUNK = 7  # search in 7-day windows to avoid huge result sets
 
 logging.basicConfig(
     level=logging.INFO,
@@ -281,19 +284,34 @@ def generate_booking_id(inmate_id: str, booking_date: str) -> str:
 
 # ── Main ────────────────────────────────────────────────────────────
 def main():
+    backfill = "--backfill" in sys.argv
+
     log.info("=" * 60)
-    log.info("Lorain County Booking Scraper - Starting")
+    log.info(f"Lorain County Booking Scraper - {'BACKFILL MODE' if backfill else 'Starting'}")
     log.info("=" * 60)
 
     existing = load_existing_bookings()
     log.info(f"Loaded {len(existing)} existing bookings")
 
-    # Search the last N days
     today = datetime.now()
-    from_date = (today - timedelta(days=LOOKBACK_DAYS)).strftime("%Y-%m-%d")
-    to_date = today.strftime("%Y-%m-%d")
 
-    search_results = search_bookings(from_date, to_date)
+    if backfill:
+        # Search in weekly chunks going back BACKFILL_DAYS
+        search_results = []
+        for offset in range(0, BACKFILL_DAYS, BACKFILL_CHUNK):
+            chunk_end = today - timedelta(days=offset)
+            chunk_start = today - timedelta(days=offset + BACKFILL_CHUNK)
+            from_date = chunk_start.strftime("%Y-%m-%d")
+            to_date = chunk_end.strftime("%Y-%m-%d")
+            chunk_results = search_bookings(from_date, to_date)
+            search_results.extend(chunk_results)
+            time.sleep(1)  # be polite between chunks
+        log.info(f"Backfill found {len(search_results)} total inmates across {BACKFILL_DAYS} days")
+    else:
+        # Normal mode: just check recent days
+        from_date = (today - timedelta(days=LOOKBACK_DAYS)).strftime("%Y-%m-%d")
+        to_date = today.strftime("%Y-%m-%d")
+        search_results = search_bookings(from_date, to_date)
 
     new_count = 0
     updated_count = 0

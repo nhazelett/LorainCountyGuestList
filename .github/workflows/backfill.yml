@@ -1,0 +1,45 @@
+name: Backfill Historical Bookings
+
+on:
+  workflow_dispatch: # Manual trigger only
+
+permissions:
+  contents: write
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+          cache-dependency-path: scraper/requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r scraper/requirements.txt
+
+      - name: Run backfill scraper
+        id: scrape
+        run: python scraper/scraper.py --backfill
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "Booking Bot"
+          git config user.email "bot@lorain-bookings.com"
+          git add data/ images/
+
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
+          git commit -m "Backfill historical bookings - ${TIMESTAMP}"
+          git push
