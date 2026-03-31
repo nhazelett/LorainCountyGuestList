@@ -31,7 +31,8 @@ BOOKINGS_FILE = DATA_DIR / "bookings.json"
 # How many days back to search (covers weekends/holidays)
 LOOKBACK_DAYS = 3
 # For backfill mode: how far back to go (in days) and chunk size
-BACKFILL_DAYS = 365
+# 3650 days = ~10 years — will go as far back as the system has data
+BACKFILL_DAYS = 3650
 BACKFILL_CHUNK = 7  # search in 7-day windows to avoid huge result sets
 
 logging.basicConfig(
@@ -384,16 +385,4 @@ def main():
     save_bookings(existing)
 
     log.info("=" * 60)
-    log.info(f"Done! {new_count} new, {updated_count} updated, {len(existing)} total")
-    log.info("=" * 60)
-
-    # Set GitHub Actions output
-    if os.environ.get("GITHUB_OUTPUT"):
-        with open(os.environ["GITHUB_OUTPUT"], "a") as f:
-            f.write(f"new_bookings={new_count}\n")
-            f.write(f"total_bookings={len(existing)}\n")
-            f.write(f"has_new={'true' if new_count > 0 else 'false'}\n")
-
-
-if __name__ == "__main__":
-    main()
+    log.info(f"Done! {new_count} new, {updated_count} updated, {len(existing

@@ -9,7 +9,7 @@ permissions:
 jobs:
   backfill:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 360
 
     steps:
       - name: Checkout repo
@@ -41,5 +41,4 @@ jobs:
           fi
 
           TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
-          git commit -m "Backfill historical bookings - ${TIMESTAMP}"
-          git push
+          git commit -m "Backfill historical b
