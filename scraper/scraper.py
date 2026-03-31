@@ -385,4 +385,16 @@ def main():
     save_bookings(existing)
 
     log.info("=" * 60)
-    log.info(f"Done! {new_count} new, {updated_count} updated, {len(existing
+    log.info(f"Done! {new_count} new, {updated_count} updated, {len(existing)} total")
+    log.info("=" * 60)
+
+    # Set GitHub Actions output
+    if os.environ.get("GITHUB_OUTPUT"):
+        with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+            f.write(f"new_bookings={new_count}\n")
+            f.write(f"total_bookings={len(existing)}\n")
+            f.write(f"has_new={'true' if new_count > 0 else 'false'}\n")
+
+
+if __name__ == "__main__":
+    main()
