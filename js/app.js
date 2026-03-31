@@ -253,7 +253,7 @@ async function loadDetail(bookingId) {
     }
 
     // Update page title
-    document.title = `${booking.name} - Lorain County Bookings`;
+    document.title = `${booking.name} - Lorain County Guest List`;
 
     // Name & meta
     document.getElementById('detailName').textContent = booking.name || 'Unknown';

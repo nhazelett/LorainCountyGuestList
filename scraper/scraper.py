@@ -25,7 +25,6 @@ PHOTO_URL = f"{BASE_URL}/Inmate/Photo"
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = PROJECT_ROOT / "data"
-IMAGES_DIR = PROJECT_ROOT / "images"
 BOOKINGS_FILE = DATA_DIR / "bookings.json"
 
 # How many days back to search (covers weekends/holidays)
@@ -76,30 +75,11 @@ def save_bookings(bookings: dict):
     log.info(f"Saved {len(sorted_bookings)} bookings to {BOOKINGS_FILE}")
 
 
-def download_mugshot(photo_id: str) -> str | None:
-    """Download a mugshot image and return the relative path."""
+def get_mugshot_url(photo_id: str) -> str | None:
+    """Return the direct URL to a mugshot on the Tyler Technologies server."""
     if not photo_id:
         return None
-
-    IMAGES_DIR.mkdir(parents=True, exist_ok=True)
-    filename = f"{photo_id}.jpg"
-    filepath = IMAGES_DIR / filename
-
-    if filepath.exists():
-        return f"images/{filename}"
-
-    try:
-        url = f"{PHOTO_URL}/{photo_id}?type=Detail"
-        resp = session.get(url, timeout=15)
-        if resp.status_code == 200 and len(resp.content) > 500:
-            with open(filepath, "wb") as f:
-                f.write(resp.content)
-            log.info(f"  Downloaded mugshot: {filename}")
-            return f"images/{filename}"
-    except Exception as e:
-        log.warning(f"  Failed to download mugshot {photo_id}: {e}")
-
-    return None
+    return f"{PHOTO_URL}/{photo_id}?type=Detail"
 
 
 # ── Scraping ────────────────────────────────────────────────────────
@@ -332,16 +312,16 @@ def main():
         booking_date = detail.get("booking_booking_date", result.get("dob", "unknown"))
         booking_id = generate_booking_id(inmate_id, booking_date)
 
-        # Download mugshot(s)
-        mugshot_paths = []
+        # Build mugshot URLs (served directly from Tyler Technologies)
+        mugshot_urls = []
         photo_ids = detail.get("photo_ids", [])
         if not photo_ids and result.get("photo_id"):
             photo_ids = [result["photo_id"]]
 
         for pid in photo_ids:
-            path = download_mugshot(pid)
-            if path:
-                mugshot_paths.append(path)
+            url = get_mugshot_url(pid)
+            if url:
+                mugshot_urls.append(url)
 
         # Build the full record
         booking = {
@@ -367,7 +347,7 @@ def main():
             "total_bail": detail.get("booking_total_bail_amount", ""),
             "charges": detail.get("charges", []),
             "bonds": detail.get("bonds", []),
-            "mugshots": mugshot_paths,
+            "mugshots": mugshot_urls,
             "photo_ids": photo_ids,
             "subject_number": detail.get("subject_number", result["subject_number"]),
             "scraped_at": datetime.utcnow().isoformat() + "Z",

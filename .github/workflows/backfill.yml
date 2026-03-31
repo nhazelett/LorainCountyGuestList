@@ -33,8 +33,7 @@ jobs:
         run: |
           git config user.name "Booking Bot"
           git config user.email "bot@lorain-bookings.com"
-          mkdir -p images
-          git add data/ images/
+          git add data/
 
           if git diff --staged --quiet; then
             echo "No changes to commit"
