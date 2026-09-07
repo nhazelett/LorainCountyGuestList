@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-07T17:57:10.694278Z",
-  "total": 3093,
+  "last_updated": "2026-09-07T21:26:59.514595Z",
+  "total": 3096,
   "bookings": [
     {
       "booking_id": "c6b13e63a3cd",
@@ -1935,7 +1935,7 @@
         "1C52PMPM"
       ],
       "subject_number": "553067",
-      "scraped_at": "2026-09-07T17:57:07.693528Z"
+      "scraped_at": "2026-09-07T21:26:54.566146Z"
     },
     {
       "booking_id": "37b7b8c2f68d",
@@ -1983,7 +1983,7 @@
         "1C52PMP1"
       ],
       "subject_number": "52166",
-      "scraped_at": "2026-09-07T17:56:51.665219Z"
+      "scraped_at": "2026-09-07T21:26:36.879548Z"
     },
     {
       "booking_id": "c0b01b82b523",
@@ -2031,7 +2031,51 @@
         "1C52PMGA"
       ],
       "subject_number": "553065",
-      "scraped_at": "2026-09-07T17:56:57.902366Z"
+      "scraped_at": "2026-09-07T21:26:44.021339Z"
+    },
+    {
+      "booking_id": "64e9018dd511",
+      "inmate_id": "-1601872",
+      "name": "BECK, DOMINIQUE",
+      "dob": "03/14/1995",
+      "age": "31",
+      "gender": "Female",
+      "race": "Black/African American",
+      "height": "5' 7\"",
+      "weight": "117.0 lbs",
+      "address": "cleveland, Ohio 44120",
+      "in_custody": "Yes",
+      "housing_facility": "Lorain County Jail",
+      "booking_date": "9/7/2026 2:01 PM",
+      "booking_date_raw": "9/7/2026 2:01 PM",
+      "release_date": "",
+      "booking_origin": "Amherst Police Department",
+      "prisoner_type": "Committed",
+      "classification": "MINIMUM",
+      "total_bond": "$0.00",
+      "total_bail": "$0.00",
+      "charges": [
+        {
+          "number": "1",
+          "description": "OVI",
+          "counts": "1",
+          "offense_date": "9/7/2026 2:05 PM",
+          "docket_number": "26TRC00990",
+          "crime_class": "",
+          "arresting_agency": ""
+        }
+      ],
+      "bonds": [
+        {
+          "bond_number": "2026-00008796",
+          "bond_type": "Sentenced",
+          "bond_amount": "$0.00"
+        }
+      ],
+      "mugshots": [],
+      "photo_ids": [],
+      "subject_number": "553082",
+      "scraped_at": "2026-09-07T21:26:15.252765Z"
     },
     {
       "booking_id": "7424345fe9a0",
@@ -2086,10 +2130,14 @@
           "bond_amount": "$0.00"
         }
       ],
-      "mugshots": [],
-      "photo_ids": [],
+      "mugshots": [
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C52PN3C?type=Detail"
+      ],
+      "photo_ids": [
+        "1C52PN3C"
+      ],
       "subject_number": "553081",
-      "scraped_at": "2026-09-07T17:56:26.654820Z"
+      "scraped_at": "2026-09-07T21:26:17.462832Z"
     },
     {
       "booking_id": "1c1bff07f340",
@@ -4288,7 +4336,7 @@
         "1C52PMAL"
       ],
       "subject_number": "109937",
-      "scraped_at": "2026-09-07T17:56:35.134620Z"
+      "scraped_at": "2026-09-07T21:26:25.484218Z"
     },
     {
       "booking_id": "5e5f7828ca36",
@@ -4311,8 +4359,24 @@
       "classification": "MINIMUM",
       "total_bond": "$0.00",
       "total_bail": "$0.00",
-      "charges": [],
-      "bonds": [],
+      "charges": [
+        {
+          "number": "1",
+          "description": "Acts in contempt of court",
+          "counts": "1",
+          "offense_date": "9/6/2026 5:26 AM",
+          "docket_number": "19JB58651",
+          "crime_class": "",
+          "arresting_agency": ""
+        }
+      ],
+      "bonds": [
+        {
+          "bond_number": "2026-00008767",
+          "bond_type": "None",
+          "bond_amount": "$0.00"
+        }
+      ],
       "mugshots": [
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C52PLTQ?type=Detail"
       ],
@@ -4320,7 +4384,7 @@
         "1C52PLTQ"
       ],
       "subject_number": "553061",
-      "scraped_at": "2026-09-07T17:56:29.170406Z"
+      "scraped_at": "2026-09-07T21:26:19.675109Z"
     },
     {
       "booking_id": "9db229a5154b",
@@ -4363,30 +4427,30 @@
       ],
       "mugshots": [
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C52PM91?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07RTV?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07RU1?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07RTV?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07RTT?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07RU0?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07RTZ?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07RTX?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07RTY?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07RTW?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07RTY?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07RTU?type=Detail"
       ],
       "photo_ids": [
         "1C52PM91",
-        "SHR07RTV",
         "SHR07RU1",
+        "SHR07RTV",
         "SHR07RTT",
         "SHR07RU0",
         "SHR07RTZ",
         "SHR07RTX",
-        "SHR07RTY",
         "SHR07RTW",
+        "SHR07RTY",
         "SHR07RTU"
       ],
       "subject_number": "44952",
-      "scraped_at": "2026-09-07T17:57:06.218271Z"
+      "scraped_at": "2026-09-07T21:26:53.076329Z"
     },
     {
       "booking_id": "f43c2d644fab",
@@ -4420,7 +4484,13 @@
           "arresting_agency": ""
         }
       ],
-      "bonds": [],
+      "bonds": [
+        {
+          "bond_number": "2026-00008759",
+          "bond_type": "Cash/Surety",
+          "bond_amount": "$1,000.00"
+        }
+      ],
       "mugshots": [
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C52PLPI?type=Detail"
       ],
@@ -4428,7 +4498,7 @@
         "1C52PLPI"
       ],
       "subject_number": "525726",
-      "scraped_at": "2026-09-07T17:56:32.712025Z"
+      "scraped_at": "2026-09-07T21:26:23.055409Z"
     },
     {
       "booking_id": "8e0ed4ba772d",
@@ -6001,7 +6071,7 @@
         "1C52PLF1"
       ],
       "subject_number": "553038",
-      "scraped_at": "2026-09-07T17:56:24.881168Z"
+      "scraped_at": "2026-09-07T21:26:15.980168Z"
     },
     {
       "booking_id": "feeb16be1f64",
@@ -6058,7 +6128,7 @@
         "1C52PLH7"
       ],
       "subject_number": "545882",
-      "scraped_at": "2026-09-07T17:56:37.403898Z"
+      "scraped_at": "2026-09-07T21:26:27.746553Z"
     },
     {
       "booking_id": "b42f7889b48b",
@@ -6101,16 +6171,16 @@
       ],
       "mugshots": [
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C52PL2Q?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08U3S?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08U3T?type=Detail"
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08U3T?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08U3S?type=Detail"
       ],
       "photo_ids": [
         "1C52PL2Q",
-        "SHR08U3S",
-        "SHR08U3T"
+        "SHR08U3T",
+        "SHR08U3S"
       ],
       "subject_number": "92881",
-      "scraped_at": "2026-09-07T17:56:52.391373Z"
+      "scraped_at": "2026-09-07T21:26:37.610671Z"
     },
     {
       "booking_id": "07aa1d0c31de",
@@ -6162,30 +6232,30 @@
       ],
       "mugshots": [
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C52PKZ0?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07CXA?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07CXE?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07CX8?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07CXA?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07CX9?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07CXD?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07CX8?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07CXG?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07CXD?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07CX7?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07CXC?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07CXF?type=Detail"
       ],
       "photo_ids": [
         "1C52PKZ0",
-        "SHR07CXA",
         "SHR07CXE",
-        "SHR07CX8",
+        "SHR07CXA",
         "SHR07CX9",
-        "SHR07CXD",
+        "SHR07CX8",
         "SHR07CXG",
+        "SHR07CXD",
         "SHR07CX7",
         "SHR07CXC",
         "SHR07CXF"
       ],
       "subject_number": "27040",
-      "scraped_at": "2026-09-07T17:56:50.938135Z"
+      "scraped_at": "2026-09-07T21:26:36.151383Z"
     },
     {
       "booking_id": "9a67889d6973",
@@ -6233,7 +6303,7 @@
         "1C52PKZC"
       ],
       "subject_number": "553037",
-      "scraped_at": "2026-09-07T17:56:28.163934Z"
+      "scraped_at": "2026-09-07T21:26:18.948933Z"
     },
     {
       "booking_id": "d2c456019ca8",
@@ -6281,7 +6351,7 @@
         "1C52PLMO"
       ],
       "subject_number": "553060",
-      "scraped_at": "2026-09-07T17:57:02.379897Z"
+      "scraped_at": "2026-09-07T21:26:48.497583Z"
     },
     {
       "booking_id": "f6dbe19ee4f4",
@@ -6329,7 +6399,7 @@
         "1C52PLM1"
       ],
       "subject_number": "553058",
-      "scraped_at": "2026-09-07T17:56:46.369896Z"
+      "scraped_at": "2026-09-07T21:26:31.606139Z"
     },
     {
       "booking_id": "b7f5c4d26321",
@@ -6419,7 +6489,7 @@
         "1C52PLNP"
       ],
       "subject_number": "553057",
-      "scraped_at": "2026-09-07T17:56:22.557961Z"
+      "scraped_at": "2026-09-07T21:26:12.930965Z"
     },
     {
       "booking_id": "bbd327200a9a",
@@ -6467,7 +6537,7 @@
         "1C52PLNK"
       ],
       "subject_number": "553051",
-      "scraped_at": "2026-09-07T17:57:03.967811Z"
+      "scraped_at": "2026-09-07T21:26:50.096433Z"
     },
     {
       "booking_id": "7abc9293c2f4",
@@ -7261,7 +7331,7 @@
         "1C52PKWK"
       ],
       "subject_number": "553035",
-      "scraped_at": "2026-09-07T17:56:25.609919Z"
+      "scraped_at": "2026-09-07T21:26:16.718674Z"
     },
     {
       "booking_id": "03a3fb6e2715",
@@ -7332,16 +7402,16 @@
       ],
       "mugshots": [
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C52PL12?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR083F6?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR083F7?type=Detail"
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR083F7?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR083F6?type=Detail"
       ],
       "photo_ids": [
         "1C52PL12",
-        "SHR083F6",
-        "SHR083F7"
+        "SHR083F7",
+        "SHR083F6"
       ],
       "subject_number": "62123",
-      "scraped_at": "2026-09-07T17:56:24.144220Z"
+      "scraped_at": "2026-09-07T21:26:14.523074Z"
     },
     {
       "booking_id": "71f4972ec496",
@@ -7425,7 +7495,7 @@
         "1C52PKET"
       ],
       "subject_number": "553030",
-      "scraped_at": "2026-09-07T17:56:45.631592Z"
+      "scraped_at": "2026-09-07T21:26:30.876787Z"
     },
     {
       "booking_id": "09a7604174b6",
@@ -7467,7 +7537,7 @@
         "1C52PKTK"
       ],
       "subject_number": "110232",
-      "scraped_at": "2026-09-07T17:57:01.656345Z"
+      "scraped_at": "2026-09-07T21:26:47.758113Z"
     },
     {
       "booking_id": "11dc9910ff0d",
@@ -7533,7 +7603,7 @@
         "1C52PKS2"
       ],
       "subject_number": "553034",
-      "scraped_at": "2026-09-07T17:57:09.930599Z"
+      "scraped_at": "2026-09-07T21:26:58.752231Z"
     },
     {
       "booking_id": "07f269ab32eb",
@@ -7575,7 +7645,7 @@
         "1C52PKPX"
       ],
       "subject_number": "553033",
-      "scraped_at": "2026-09-07T17:57:09.201143Z"
+      "scraped_at": "2026-09-07T21:26:58.020802Z"
     },
     {
       "booking_id": "912c01c37ea5",
@@ -7641,7 +7711,7 @@
         "1C52PKQX"
       ],
       "subject_number": "553032",
-      "scraped_at": "2026-09-07T17:56:44.900950Z"
+      "scraped_at": "2026-09-07T21:26:30.143809Z"
     },
     {
       "booking_id": "fc92da8b3686",
@@ -7689,7 +7759,7 @@
         "1C52PKFN"
       ],
       "subject_number": "515580",
-      "scraped_at": "2026-09-07T17:56:59.419091Z"
+      "scraped_at": "2026-09-07T21:26:45.520033Z"
     },
     {
       "booking_id": "40caa38304c1",
@@ -7731,7 +7801,7 @@
         "1C52PKQN"
       ],
       "subject_number": "553031",
-      "scraped_at": "2026-09-07T17:56:47.834240Z"
+      "scraped_at": "2026-09-07T21:26:33.075799Z"
     },
     {
       "booking_id": "08959d99e1b2",
@@ -7793,7 +7863,7 @@
         "1C52PK2M"
       ],
       "subject_number": "553029",
-      "scraped_at": "2026-09-07T17:56:34.405424Z"
+      "scraped_at": "2026-09-07T21:26:24.757318Z"
     },
     {
       "booking_id": "e10968d38cf6",
@@ -7836,30 +7906,30 @@
       ],
       "mugshots": [
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C52PKJB?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07KM3?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07KM5?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07KM3?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07KLZ?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07KM2?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07KM0?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07KM1?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07KLX?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07KM0?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07KLY?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07KLU?type=Detail"
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07KLX?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07KLW?type=Detail"
       ],
       "photo_ids": [
         "1C52PKJB",
-        "SHR07KM3",
         "SHR07KM5",
+        "SHR07KM3",
         "SHR07KLZ",
         "SHR07KM2",
-        "SHR07KM0",
         "SHR07KM1",
-        "SHR07KLX",
+        "SHR07KM0",
         "SHR07KLY",
-        "SHR07KLU"
+        "SHR07KLX",
+        "SHR07KLW"
       ],
       "subject_number": "35952",
-      "scraped_at": "2026-09-07T17:57:04.724183Z"
+      "scraped_at": "2026-09-07T21:26:50.824060Z"
     },
     {
       "booking_id": "7b1392eb05b5",
@@ -7921,7 +7991,7 @@
         "1C52PKYY"
       ],
       "subject_number": "553036",
-      "scraped_at": "2026-09-07T17:56:27.408321Z"
+      "scraped_at": "2026-09-07T21:26:18.195117Z"
     },
     {
       "booking_id": "548933bcf527",
@@ -7969,7 +8039,7 @@
         "1C52PKIV"
       ],
       "subject_number": "552985",
-      "scraped_at": "2026-09-07T17:56:20.806142Z"
+      "scraped_at": "2026-09-07T21:26:11.193501Z"
     },
     {
       "booking_id": "8e668d08a06d",
@@ -35123,7 +35193,7 @@
         "1C52GQ2X"
       ],
       "subject_number": "546996",
-      "scraped_at": "2026-09-07T17:56:48.597533Z"
+      "scraped_at": "2026-09-07T21:26:33.830758Z"
     },
     {
       "booking_id": "fe615cab729e",
@@ -66615,7 +66685,7 @@
         "1C50VDFH"
       ],
       "subject_number": "128155",
-      "scraped_at": "2026-09-07T12:40:13.337027Z"
+      "scraped_at": "2026-09-07T21:26:21.354364Z"
     },
     {
       "booking_id": "7dbd901e3c3a",
@@ -73290,7 +73360,7 @@
         "1C506DW4"
       ],
       "subject_number": "501964",
-      "scraped_at": "2026-09-07T17:56:57.176536Z"
+      "scraped_at": "2026-09-07T21:26:42.478965Z"
     },
     {
       "booking_id": "11845cad2035",
@@ -124978,10 +125048,10 @@
       "gender": "Female",
       "race": "Black/African American",
       "height": "5' 6\"",
-      "weight": "199.0 lbs",
+      "weight": "193.0 lbs",
       "address": "CLEVELAND, Ohio 44101",
-      "in_custody": "",
-      "housing_facility": "",
+      "in_custody": "Yes",
+      "housing_facility": "Lorain County Jail",
       "booking_date": "7/25/2025 1:27 AM",
       "booking_date_raw": "7/25/2025 1:27 AM",
       "release_date": "7/26/2025 4:16 PM",
@@ -124991,6 +125061,15 @@
       "total_bond": "$0.00",
       "total_bail": "$0.00",
       "charges": [
+        {
+          "number": "1",
+          "description": "Resisting Arrest",
+          "counts": "1",
+          "offense_date": "9/7/2026 4:35 PM",
+          "docket_number": "25CRB02459",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
         {
           "number": "1",
           "description": "OVI",
@@ -125076,7 +125155,7 @@
         "1C52FJ7K"
       ],
       "subject_number": "548180",
-      "scraped_at": "2026-09-03T23:29:05.854583Z"
+      "scraped_at": "2026-09-07T21:26:57.321056Z"
     },
     {
       "booking_id": "616ddff3ca1a",
@@ -150455,7 +150534,7 @@
         "1C52F5ZG"
       ],
       "subject_number": "547971",
-      "scraped_at": "2026-09-07T17:57:06.969855Z"
+      "scraped_at": "2026-09-07T21:26:53.832765Z"
     },
     {
       "booking_id": "0a0102b1e4ec",
@@ -166729,7 +166808,7 @@
         "1C52E8P6"
       ],
       "subject_number": "83304",
-      "scraped_at": "2026-09-07T17:56:54.740176Z"
+      "scraped_at": "2026-09-07T21:26:40.107726Z"
     },
     {
       "booking_id": "39547d1fb796",
@@ -167336,7 +167415,7 @@
         "1C51MK5E"
       ],
       "subject_number": "38974",
-      "scraped_at": "2026-09-07T17:56:23.413913Z"
+      "scraped_at": "2026-09-07T21:26:13.791172Z"
     },
     {
       "booking_id": "7354beca6137",
@@ -194889,7 +194968,7 @@
         "1C50R18E"
       ],
       "subject_number": "88506",
-      "scraped_at": "2026-09-07T17:57:03.243753Z"
+      "scraped_at": "2026-09-07T21:26:49.363926Z"
     },
     {
       "booking_id": "8aaeec87d0b6",
@@ -207636,7 +207715,7 @@
         "1C50D87J"
       ],
       "subject_number": "507194",
-      "scraped_at": "2026-09-07T17:57:08.499654Z"
+      "scraped_at": "2026-09-07T21:26:56.568223Z"
     },
     {
       "booking_id": "6f6d92df3970",
@@ -272914,7 +272993,7 @@
         "1C51UG7S"
       ],
       "subject_number": "537623",
-      "scraped_at": "2026-09-07T17:56:50.193152Z"
+      "scraped_at": "2026-09-07T21:26:35.418738Z"
     },
     {
       "booking_id": "af344be864be",
@@ -289003,7 +289082,7 @@
       "race": "Black/African American",
       "height": "5' 10\"",
       "weight": "153.0 lbs",
-      "address": "LORAIN, Ohio 44052",
+      "address": "LORAIN, Ohio 44053",
       "in_custody": "Yes",
       "housing_facility": "Lorain County Jail",
       "booking_date": "4/26/2018 9:54 PM",
@@ -289015,6 +289094,42 @@
       "total_bond": "$0.00",
       "total_bail": "$0.00",
       "charges": [
+        {
+          "number": "4",
+          "description": "Possession of Controlled Substance",
+          "counts": "1",
+          "offense_date": "9/7/2026 3:32 PM",
+          "docket_number": "",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "3",
+          "description": "Obstructing Official Business",
+          "counts": "1",
+          "offense_date": "9/7/2026 3:32 PM",
+          "docket_number": "",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "2",
+          "description": "Strangulation",
+          "counts": "1",
+          "offense_date": "9/7/2026 3:32 PM",
+          "docket_number": "",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "1",
+          "description": "Domestic Violence",
+          "counts": "1",
+          "offense_date": "9/7/2026 3:32 PM",
+          "docket_number": "",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
         {
           "number": "2",
           "description": "Criminal Damaging",
@@ -289117,6 +289232,11 @@
       ],
       "bonds": [
         {
+          "bond_number": "2026-00008798",
+          "bond_type": "None",
+          "bond_amount": "$0.00"
+        },
+        {
           "bond_number": "2026-00007010",
           "bond_type": "Cash/Surety",
           "bond_amount": "$2,500.00"
@@ -289192,7 +289312,7 @@
         "SHR09FQH"
       ],
       "subject_number": "119087",
-      "scraped_at": "2026-07-21T23:33:07.565329Z"
+      "scraped_at": "2026-09-07T21:26:43.295990Z"
     },
     {
       "booking_id": "18f143092211",
@@ -291373,6 +291493,142 @@
       ],
       "subject_number": "542838",
       "scraped_at": "2026-07-18T23:30:14.486162Z"
+    },
+    {
+      "booking_id": "516ef8bf5ea8",
+      "inmate_id": "-1334329",
+      "name": "TARPLEY, JACE M",
+      "dob": "02/13/2001",
+      "age": "25",
+      "gender": "Male",
+      "race": "Black/African American",
+      "height": "6' 3\"",
+      "weight": "300.0 lbs",
+      "address": "LORAIN, Ohio 44053",
+      "in_custody": "Yes",
+      "housing_facility": "Lorain County Jail",
+      "booking_date": "4/25/2022 4:19 PM",
+      "booking_date_raw": "4/25/2022 4:19 PM",
+      "release_date": "4/26/2022 3:17 PM",
+      "booking_origin": "Lorain Police Department",
+      "prisoner_type": "New Arrest",
+      "classification": "",
+      "total_bond": "$0.00",
+      "total_bail": "$0.00",
+      "charges": [
+        {
+          "number": "1",
+          "description": "OVI",
+          "counts": "1",
+          "offense_date": "9/7/2026 1:51 PM",
+          "docket_number": "25TRC06964",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "7",
+          "description": "Open Container",
+          "counts": "1",
+          "offense_date": "12/27/2025 2:11 AM",
+          "docket_number": "25CRB03398",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "6",
+          "description": "DRIVING UNDER OVI SUSPENSION",
+          "counts": "1",
+          "offense_date": "12/27/2025 2:11 AM",
+          "docket_number": "25TRC06964",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "5",
+          "description": "Seatbelt - Driver",
+          "counts": "1",
+          "offense_date": "12/27/2025 2:11 AM",
+          "docket_number": "25TRC06964",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "4",
+          "description": "OVI - CURRENT REFUSAL - PREVIOUS OVI WITHIN 20 YEARS",
+          "counts": "1",
+          "offense_date": "12/27/2025 2:11 AM",
+          "docket_number": "25TRC06964",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "3",
+          "description": "Signals Before Changing Course, Turning, or Stopping",
+          "counts": "1",
+          "offense_date": "12/27/2025 2:11 AM",
+          "docket_number": "25TRC06964",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "2",
+          "description": "Driving on Right Side of Roadway - Execptions",
+          "counts": "1",
+          "offense_date": "12/27/2025 2:11 AM",
+          "docket_number": "25TRC06964",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "1",
+          "description": "OVI",
+          "counts": "1",
+          "offense_date": "12/27/2025 7:30 AM",
+          "docket_number": "25TRC06964",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "2",
+          "description": "Assault Simple",
+          "counts": "1",
+          "offense_date": "4/25/2022 8:55 PM",
+          "docket_number": "22CRB01653",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "1",
+          "description": "Domestic Violence",
+          "counts": "1",
+          "offense_date": "4/25/2022 4:23 PM",
+          "docket_number": "22CRB01654",
+          "crime_class": "",
+          "arresting_agency": ""
+        }
+      ],
+      "bonds": [
+        {
+          "bond_number": "2026-00008795",
+          "bond_type": "Sentenced",
+          "bond_amount": "$0.00"
+        },
+        {
+          "bond_number": "2025-00012650",
+          "bond_type": "None",
+          "bond_amount": "$0.00"
+        }
+      ],
+      "mugshots": [
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C52J75N?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C51LHYS?type=Detail"
+      ],
+      "photo_ids": [
+        "1C52J75N",
+        "1C51LHYS"
+      ],
+      "subject_number": "531782",
+      "scraped_at": "2026-09-07T21:26:51.583796Z"
     },
     {
       "booking_id": "910884a1e855",
@@ -309575,16 +309831,386 @@
       "classification": "",
       "total_bond": "$0.00",
       "total_bail": "$0.00",
-      "charges": [],
-      "bonds": [],
+      "charges": [
+        {
+          "number": "1",
+          "description": "Domestic Violence",
+          "counts": "1",
+          "offense_date": "9/7/2026 12:40 AM",
+          "docket_number": "",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "4",
+          "description": "Acts in contempt of court",
+          "counts": "1",
+          "offense_date": "4/5/2026 1:16 AM",
+          "docket_number": "05JB10090",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "3",
+          "description": "Acts in contempt of court",
+          "counts": "1",
+          "offense_date": "4/4/2026 3:31 PM",
+          "docket_number": "25TRC05329",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "2",
+          "description": "Aggravated Menacing",
+          "counts": "1",
+          "offense_date": "4/4/2026 3:31 PM",
+          "docket_number": "25CRB03115",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "1",
+          "description": "Domestic Violence",
+          "counts": "1",
+          "offense_date": "4/4/2026 3:31 PM",
+          "docket_number": "25CRA03114",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "1",
+          "description": "OVI",
+          "counts": "1",
+          "offense_date": "9/23/2025 1:28 PM",
+          "docket_number": "",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "3",
+          "description": "Acts in contempt of court",
+          "counts": "1",
+          "offense_date": "6/15/2025 3:53 AM",
+          "docket_number": "05JB10090",
+          "crime_class": "Lorain County Sheriff's Office",
+          "arresting_agency": ""
+        },
+        {
+          "number": "2",
+          "description": "Acts in contempt of court",
+          "counts": "1",
+          "offense_date": "6/15/2025 3:53 AM",
+          "docket_number": "17JS50825",
+          "crime_class": "Lorain County Sheriff's Office",
+          "arresting_agency": ""
+        },
+        {
+          "number": "1",
+          "description": "Domestic Violence",
+          "counts": "1",
+          "offense_date": "6/14/2025 9:27 PM",
+          "docket_number": "25CRB0168",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "2",
+          "description": "PROBATION VIOLATION",
+          "counts": "1",
+          "offense_date": "8/22/2023 8:37 AM",
+          "docket_number": "22CR106730",
+          "crime_class": "Lorain County Adult Probation Department",
+          "arresting_agency": ""
+        },
+        {
+          "number": "1",
+          "description": "Domestic Violence",
+          "counts": "1",
+          "offense_date": "8/20/2023 12:08 AM",
+          "docket_number": "23CRA02919",
+          "crime_class": "",
+          "arresting_agency": "Attempted"
+        },
+        {
+          "number": "4",
+          "description": "Domestic Violence",
+          "counts": "1",
+          "offense_date": "5/31/2022 10:32 PM",
+          "docket_number": "22CRA02114",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "3",
+          "description": "Resisting Arrest",
+          "counts": "1",
+          "offense_date": "5/27/2022 11:53 PM",
+          "docket_number": "22CRB02115",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "2",
+          "description": "Obstructing Official Business",
+          "counts": "1",
+          "offense_date": "5/27/2022 11:53 PM",
+          "docket_number": "22CRB02115",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "1",
+          "description": "Assault on peace officer, firefighter or medical personnel (Simple)",
+          "counts": "1",
+          "offense_date": "5/27/2022 11:53 PM",
+          "docket_number": "22CRA02114",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "1",
+          "description": "Domestic Violence",
+          "counts": "1",
+          "offense_date": "5/27/2021 11:24 PM",
+          "docket_number": "21CRA01501",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "1",
+          "description": "Assault Simple",
+          "counts": "1",
+          "offense_date": "12/3/2020 6:02 PM",
+          "docket_number": "20CRB04339",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "2",
+          "description": "Resisting Arrest",
+          "counts": "1",
+          "offense_date": "10/29/2020 1:15 AM",
+          "docket_number": "20CRB02527",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "1",
+          "description": "Obstructing Official Business",
+          "counts": "1",
+          "offense_date": "10/29/2020 1:15 AM",
+          "docket_number": "20CRB02527",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "14",
+          "description": "Acts in contempt of court",
+          "counts": "1",
+          "offense_date": "12/22/2017 10:19 PM",
+          "docket_number": "17CR096194",
+          "crime_class": "Lorain County Sheriff's Office",
+          "arresting_agency": ""
+        },
+        {
+          "number": "13",
+          "description": "Acts in contempt of court",
+          "counts": "1",
+          "offense_date": "11/27/2017 6:06 PM",
+          "docket_number": "05JB10090",
+          "crime_class": "Lorain County Sheriff's Office",
+          "arresting_agency": ""
+        },
+        {
+          "number": "12",
+          "description": "Acts in contempt of court",
+          "counts": "1",
+          "offense_date": "11/27/2017 6:06 PM",
+          "docket_number": "17JS50825",
+          "crime_class": "Lorain County Sheriff's Office",
+          "arresting_agency": ""
+        },
+        {
+          "number": "11",
+          "description": "Acts in contempt of court",
+          "counts": "1",
+          "offense_date": "10/10/2017 4:43 AM",
+          "docket_number": "05JB10090",
+          "crime_class": "Lorain County Sheriff's Office",
+          "arresting_agency": ""
+        },
+        {
+          "number": "10",
+          "description": "Acts in contempt of court",
+          "counts": "1",
+          "offense_date": "10/10/2017 4:43 AM",
+          "docket_number": "17JS50825",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "9",
+          "description": "Contempt of Court",
+          "counts": "1",
+          "offense_date": "10/10/2017 4:43 AM",
+          "docket_number": "17CR096194",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "8",
+          "description": "Contempt of Court",
+          "counts": "1",
+          "offense_date": "10/10/2017 4:43 AM",
+          "docket_number": "15CR091490",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "7",
+          "description": "Willful/Wanton Disregard of Safety - On Streets",
+          "counts": "1",
+          "offense_date": "10/9/2017 3:29 PM",
+          "docket_number": "17TRD06384",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "6",
+          "description": "Driving Under Suspension - All Other Suspensions",
+          "counts": "1",
+          "offense_date": "10/9/2017 3:29 PM",
+          "docket_number": "17TRD06384",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "5",
+          "description": "Resisting Arrest",
+          "counts": "1",
+          "offense_date": "10/9/2017 3:29 PM",
+          "docket_number": "17CRB03533",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "4",
+          "description": "Obstructing Official Business",
+          "counts": "1",
+          "offense_date": "10/9/2017 3:29 PM",
+          "docket_number": "17CRB03533",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "3",
+          "description": "Endangering Children",
+          "counts": "1",
+          "offense_date": "10/9/2017 3:29 PM",
+          "docket_number": "17CRB03533",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "2",
+          "description": "Compliance with Lawful Order of Police Officer / Fleeing",
+          "counts": "1",
+          "offense_date": "10/9/2017 3:29 PM",
+          "docket_number": "17CRA03530",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "1",
+          "description": "Domestic Violence",
+          "counts": "1",
+          "offense_date": "10/9/2017 3:29 PM",
+          "docket_number": "17CRA01591",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "2",
+          "description": "AGGRAVATED TRESPASS",
+          "counts": "1",
+          "offense_date": "4/17/2017 5:44 AM",
+          "docket_number": "17CRB01249",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "1",
+          "description": "Felonious Assault",
+          "counts": "1",
+          "offense_date": "4/17/2017 5:44 AM",
+          "docket_number": "17CRA01248",
+          "crime_class": "",
+          "arresting_agency": ""
+        }
+      ],
+      "bonds": [
+        {
+          "bond_number": "2025-00009704",
+          "bond_type": "Cash/Surety",
+          "bond_amount": "$1,000.00"
+        },
+        {
+          "bond_number": "2023-00009497",
+          "bond_type": "None",
+          "bond_amount": "$0.00"
+        },
+        {
+          "bond_number": "2017-00010033",
+          "bond_type": "Cash/Surety",
+          "bond_amount": "$5,000.00"
+        },
+        {
+          "bond_number": "2017-00010035",
+          "bond_type": "Cash/Surety",
+          "bond_amount": "$10,000.00"
+        },
+        {
+          "bond_number": "2017-00010582",
+          "bond_type": "Cash/Surety",
+          "bond_amount": "$25,000.00"
+        },
+        {
+          "bond_number": "2017-00012767",
+          "bond_type": "Cash/Surety",
+          "bond_amount": "$10,000.00"
+        },
+        {
+          "bond_number": "2017-00003748",
+          "bond_type": "Cash/Surety",
+          "bond_amount": "$25,000.00"
+        }
+      ],
       "mugshots": [
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C52LLUR?type=Detail"
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C52LLUR?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C52GZUM?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C52EH4R?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C51XYL1?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C51MCLZ?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C51D4UC?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C518X6A?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C5182C6?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C50GD5K?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C50BSOL?type=Detail"
       ],
       "photo_ids": [
-        "1C52LLUR"
+        "1C52LLUR",
+        "1C52GZUM",
+        "1C52EH4R",
+        "1C51XYL1",
+        "1C51MCLZ",
+        "1C51D4UC",
+        "1C518X6A",
+        "1C5182C6",
+        "1C50GD5K",
+        "1C50BSOL"
       ],
       "subject_number": "10132",
-      "scraped_at": "2026-09-07T17:56:31.932411Z"
+      "scraped_at": "2026-09-07T21:26:22.243122Z"
     },
     {
       "booking_id": "40bfad081417",
@@ -318128,11 +318754,11 @@
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C524MEY?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C523YJA?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08KDB?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08KDG?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08KDH?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08KDI?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08KDC?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08KDA?type=Detail"
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08KDH?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08KDG?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08KDF?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08KDC?type=Detail"
       ],
       "photo_ids": [
         "1C52PMM1",
@@ -318140,14 +318766,14 @@
         "1C524MEY",
         "1C523YJA",
         "SHR08KDB",
-        "SHR08KDG",
-        "SHR08KDH",
         "SHR08KDI",
-        "SHR08KDC",
-        "SHR08KDA"
+        "SHR08KDH",
+        "SHR08KDG",
+        "SHR08KDF",
+        "SHR08KDC"
       ],
       "subject_number": "82655",
-      "scraped_at": "2026-09-07T17:56:35.911567Z"
+      "scraped_at": "2026-09-07T21:26:26.255734Z"
     },
     {
       "booking_id": "e185f9373e9d",
@@ -348858,10 +349484,10 @@
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C52PLSS?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C51K7RU?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C51K28N?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR06NFH?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR06NFM?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR06NFE?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR06NFH?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR06NFF?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR06NFE?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR06NFO?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR06NFL?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR06NFK?type=Detail"
@@ -348870,16 +349496,16 @@
         "1C52PLSS",
         "1C51K7RU",
         "1C51K28N",
-        "SHR06NFH",
         "SHR06NFM",
-        "SHR06NFE",
+        "SHR06NFH",
         "SHR06NFF",
+        "SHR06NFE",
         "SHR06NFO",
         "SHR06NFL",
         "SHR06NFK"
       ],
       "subject_number": "3162",
-      "scraped_at": "2026-09-07T17:57:00.191153Z"
+      "scraped_at": "2026-09-07T21:26:46.294635Z"
     },
     {
       "booking_id": "01e36f35c5a8",
@@ -362210,7 +362836,7 @@
         "1C51SMXY"
       ],
       "subject_number": "440",
-      "scraped_at": "2026-09-07T17:56:21.823414Z"
+      "scraped_at": "2026-09-07T21:26:12.199018Z"
     },
     {
       "booking_id": "3fd7af7b76bf",
@@ -365405,7 +366031,7 @@
         "1C511F6X"
       ],
       "subject_number": "512828",
-      "scraped_at": "2026-09-07T17:56:58.664256Z"
+      "scraped_at": "2026-09-07T21:26:44.791379Z"
     },
     {
       "booking_id": "c97b414788b4",
@@ -369986,7 +370612,7 @@
         "1C51THUL"
       ],
       "subject_number": "537058",
-      "scraped_at": "2026-09-07T17:56:47.134690Z"
+      "scraped_at": "2026-09-07T21:26:32.372984Z"
     },
     {
       "booking_id": "c826d69a505f",
@@ -372808,7 +373434,7 @@
         "1C50GRFO"
       ],
       "subject_number": "26098",
-      "scraped_at": "2026-09-07T17:56:33.677705Z"
+      "scraped_at": "2026-09-07T21:26:23.949422Z"
     },
     {
       "booking_id": "bfed4b599c4b",
@@ -383088,7 +383714,7 @@
         "1C52KG2E"
       ],
       "subject_number": "543328",
-      "scraped_at": "2026-09-07T17:56:42.653275Z"
+      "scraped_at": "2026-09-07T21:26:28.504208Z"
     },
     {
       "booking_id": "ef93943a1bc1",
@@ -389288,7 +389914,7 @@
         "1C51T2VS"
       ],
       "subject_number": "546217",
-      "scraped_at": "2026-09-07T17:57:05.489589Z"
+      "scraped_at": "2026-09-07T21:26:52.344832Z"
     },
     {
       "booking_id": "6b8ade086909",
@@ -393288,7 +393914,7 @@
         "SHR09RLY"
       ],
       "subject_number": "139436",
-      "scraped_at": "2026-09-07T17:56:53.983105Z"
+      "scraped_at": "2026-09-07T21:26:39.353650Z"
     },
     {
       "booking_id": "dbd381c8a2de",
@@ -398600,6 +399226,549 @@
       "scraped_at": "2026-06-27T23:46:07.846414Z"
     },
     {
+      "booking_id": "e929a7f239cb",
+      "inmate_id": "-626609",
+      "name": "WHITESIDE, BRIAN DEYOUNG",
+      "dob": "12/15/1968",
+      "age": "57",
+      "gender": "Male",
+      "race": "Black/African American",
+      "height": "6' 1\"",
+      "weight": "220.0 lbs",
+      "address": "LORAIN, Ohio 44052",
+      "in_custody": "Yes",
+      "housing_facility": "Lorain County Jail",
+      "booking_date": "12/4/2018 4:50 PM",
+      "booking_date_raw": "12/4/2018 4:50 PM",
+      "release_date": "12/18/2018 7:29 PM",
+      "booking_origin": "Lorain Police Department",
+      "prisoner_type": "New Arrest",
+      "classification": "",
+      "total_bond": "$0.00",
+      "total_bail": "$0.00",
+      "charges": [
+        {
+          "number": "1",
+          "description": "Theft - Pick Pocket",
+          "counts": "1",
+          "offense_date": "9/7/2026 3:19 PM",
+          "docket_number": "",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "2",
+          "description": "AGGRAVATED TRESPASS",
+          "counts": "1",
+          "offense_date": "8/26/2025 1:57 AM",
+          "docket_number": "25CRB02285",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "1",
+          "description": "Criminal Damaging",
+          "counts": "1",
+          "offense_date": "8/26/2025 1:57 AM",
+          "docket_number": "25CRB02285",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "1",
+          "description": "Criminal Trespass",
+          "counts": "1",
+          "offense_date": "7/21/2025 5:03 PM",
+          "docket_number": "25CRB01807",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "5",
+          "description": "Obstructing Official Business",
+          "counts": "1",
+          "offense_date": "5/2/2025 12:35 PM",
+          "docket_number": "25CR113680",
+          "crime_class": "Lorain County Sheriff's Office",
+          "arresting_agency": ""
+        },
+        {
+          "number": "4",
+          "description": "Possession of Controlled Substance",
+          "counts": "1",
+          "offense_date": "5/2/2025 12:33 PM",
+          "docket_number": "25CR113680",
+          "crime_class": "Lorain County Sheriff's Office",
+          "arresting_agency": ""
+        },
+        {
+          "number": "3",
+          "description": "Acts in contempt of court",
+          "counts": "1",
+          "offense_date": "9/17/2024 10:06 PM",
+          "docket_number": "24CR111241",
+          "crime_class": "Lorain County Sheriff's Office",
+          "arresting_agency": ""
+        },
+        {
+          "number": "2",
+          "description": "Acts in contempt of court",
+          "counts": "1",
+          "offense_date": "9/17/2024 10:06 PM",
+          "docket_number": "24CR110820",
+          "crime_class": "Lorain County Sheriff's Office",
+          "arresting_agency": ""
+        },
+        {
+          "number": "1",
+          "description": "Criminal Trespass",
+          "counts": "1",
+          "offense_date": "9/6/2024 4:09 PM",
+          "docket_number": "24CRB02759",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "2",
+          "description": "Acts in contempt of court",
+          "counts": "1",
+          "offense_date": "5/16/2024 10:54 AM",
+          "docket_number": "24CR111241",
+          "crime_class": "Lorain County Sheriff's Office",
+          "arresting_agency": ""
+        },
+        {
+          "number": "1",
+          "description": "Menacing",
+          "counts": "1",
+          "offense_date": "5/1/2024 9:54 PM",
+          "docket_number": "24CRB01297",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "3",
+          "description": "Resisting Arrest",
+          "counts": "1",
+          "offense_date": "4/18/2024 1:20 AM",
+          "docket_number": "24CRB01176",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "2",
+          "description": "Obstructing Official Business",
+          "counts": "1",
+          "offense_date": "4/18/2024 1:20 AM",
+          "docket_number": "24CRA01175",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "1",
+          "description": "Breaking and Entering",
+          "counts": "1",
+          "offense_date": "4/18/2024 1:20 AM",
+          "docket_number": "24CRA01175",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "2",
+          "description": "Drug Paraphernalia",
+          "counts": "1",
+          "offense_date": "3/27/2024 12:58 AM",
+          "docket_number": "24CRB00980",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "1",
+          "description": "Criminal Trespass",
+          "counts": "1",
+          "offense_date": "3/27/2024 12:58 AM",
+          "docket_number": "24CRB00980",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "5",
+          "description": "PROBATION VIOLATION",
+          "counts": "1",
+          "offense_date": "3/1/2024 12:13 PM",
+          "docket_number": "23CR108161",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "4",
+          "description": "PROBATION VIOLATION",
+          "counts": "1",
+          "offense_date": "3/1/2024 12:13 PM",
+          "docket_number": "22CR106600",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "3",
+          "description": "Resisting Arrest",
+          "counts": "1",
+          "offense_date": "3/1/2024 10:21 AM",
+          "docket_number": "24CRB00656",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "2",
+          "description": "Obstructing Official Business",
+          "counts": "1",
+          "offense_date": "3/1/2024 10:21 AM",
+          "docket_number": "24CRB00656",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "1",
+          "description": "Intimidation of Attorney/Victim/Witness",
+          "counts": "1",
+          "offense_date": "3/1/2024 10:21 AM",
+          "docket_number": "24CRA00654",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "3",
+          "description": "Acts in contempt of court",
+          "counts": "1",
+          "offense_date": "1/8/2024 10:24 AM",
+          "docket_number": "23CR108161",
+          "crime_class": "Lorain County Sheriff's Office",
+          "arresting_agency": ""
+        },
+        {
+          "number": "2",
+          "description": "Acts in contempt of court",
+          "counts": "1",
+          "offense_date": "1/8/2024 10:24 AM",
+          "docket_number": "22CR106600",
+          "crime_class": "Lorain County Sheriff's Office",
+          "arresting_agency": ""
+        },
+        {
+          "number": "1",
+          "description": "Menacing",
+          "counts": "1",
+          "offense_date": "1/6/2024 10:57 AM",
+          "docket_number": "24CRB00080",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "3",
+          "description": "Acts in contempt of court",
+          "counts": "1",
+          "offense_date": "5/5/2023 2:06 PM",
+          "docket_number": "23CR108161",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "2",
+          "description": "Acts in contempt of court",
+          "counts": "1",
+          "offense_date": "5/5/2023 2:06 PM",
+          "docket_number": "22CR106600",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "1",
+          "description": "Criminal Trespass",
+          "counts": "1",
+          "offense_date": "4/17/2023 5:05 PM",
+          "docket_number": "23CRB01296",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "2",
+          "description": "Acts in contempt of court",
+          "counts": "1",
+          "offense_date": "3/25/2023 10:57 AM",
+          "docket_number": "22CR108161",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "1",
+          "description": "Acts in contempt of court",
+          "counts": "1",
+          "offense_date": "3/25/2023 10:57 AM",
+          "docket_number": "22CR106600",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "3",
+          "description": "Resisting Arrest",
+          "counts": "1",
+          "offense_date": "1/14/2023 10:55 AM",
+          "docket_number": "23CRB00146",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "2",
+          "description": "Obstructing Official Business",
+          "counts": "1",
+          "offense_date": "1/14/2023 10:55 AM",
+          "docket_number": "23CRB00146",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "1",
+          "description": "Burglary",
+          "counts": "1",
+          "offense_date": "1/14/2023 10:55 AM",
+          "docket_number": "23CRA000145",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "1",
+          "description": "Acts in contempt of court",
+          "counts": "1",
+          "offense_date": "12/27/2022 9:08 PM",
+          "docket_number": "22CRB05191",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "1",
+          "description": "Obstructing Official Business",
+          "counts": "1",
+          "offense_date": "12/17/2022 7:46 PM",
+          "docket_number": "22CRB05191",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "4",
+          "description": "Acts in contempt of court",
+          "counts": "1",
+          "offense_date": "11/10/2022 12:20 PM",
+          "docket_number": "22CR106600",
+          "crime_class": "Lorain County Sheriff's Office",
+          "arresting_agency": ""
+        },
+        {
+          "number": "3",
+          "description": "OPERATION OF VEHICLE AT STOP SIGN",
+          "counts": "1",
+          "offense_date": "11/7/2022 8:52 PM",
+          "docket_number": "22TRD05984",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "2",
+          "description": "Obstructing Official Business",
+          "counts": "1",
+          "offense_date": "11/5/2022 6:48 PM",
+          "docket_number": "22CRB04734",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "1",
+          "description": "Possession of Controlled Substance",
+          "counts": "1",
+          "offense_date": "11/5/2022 6:43 PM",
+          "docket_number": "22CRA04735",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "2",
+          "description": "Disorderly Conduct",
+          "counts": "1",
+          "offense_date": "6/3/2022 12:01 AM",
+          "docket_number": "22CRB02181",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "1",
+          "description": "Aggravated Menacing",
+          "counts": "1",
+          "offense_date": "6/3/2022 12:01 AM",
+          "docket_number": "22CRB02181",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "2",
+          "description": "Illegal Conveyance Weapons, Drugs, Prohibited Items on Grounds",
+          "counts": "1",
+          "offense_date": "5/10/2022 2:24 AM",
+          "docket_number": "22CRA01181",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "1",
+          "description": "Possession of Controlled Substance",
+          "counts": "1",
+          "offense_date": "5/10/2022 2:24 AM",
+          "docket_number": "22CRA01181",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "1",
+          "description": "Aggravated Menacing",
+          "counts": "1",
+          "offense_date": "6/25/2019 5:28 PM",
+          "docket_number": "19CRB02797",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "1",
+          "description": "Criminal Trespass",
+          "counts": "1",
+          "offense_date": "12/4/2018 4:56 PM",
+          "docket_number": "18CRB04424",
+          "crime_class": "",
+          "arresting_agency": ""
+        }
+      ],
+      "bonds": [
+        {
+          "bond_number": "2026-00008797",
+          "bond_type": "10% or Cash Surety",
+          "bond_amount": "$500.00"
+        },
+        {
+          "bond_number": "2025-00008638",
+          "bond_type": "Cash/Surety",
+          "bond_amount": "$2,500.00"
+        },
+        {
+          "bond_number": "2025-00007424",
+          "bond_type": "Cash/Surety",
+          "bond_amount": "$2,500.00"
+        },
+        {
+          "bond_number": "2024-00009549",
+          "bond_type": "Sentenced",
+          "bond_amount": "$0.00"
+        },
+        {
+          "bond_number": "2024-00009989",
+          "bond_type": "None",
+          "bond_amount": "$0.00"
+        },
+        {
+          "bond_number": "2024-00009990",
+          "bond_type": "None",
+          "bond_amount": "$0.00"
+        },
+        {
+          "bond_number": "2024-00004242",
+          "bond_type": "Cash/Surety",
+          "bond_amount": "$15,000.00"
+        },
+        {
+          "bond_number": "2024-00002628",
+          "bond_type": "None",
+          "bond_amount": "$0.00"
+        },
+        {
+          "bond_number": "2024-00002629",
+          "bond_type": "None",
+          "bond_amount": "$0.00"
+        },
+        {
+          "bond_number": "2023-00004990",
+          "bond_type": "None",
+          "bond_amount": "$0.00"
+        },
+        {
+          "bond_number": "2023-00004991",
+          "bond_type": "None",
+          "bond_amount": "$0.00"
+        },
+        {
+          "bond_number": "2023-00003375",
+          "bond_type": "None",
+          "bond_amount": "$0.00"
+        },
+        {
+          "bond_number": "2023-00000595",
+          "bond_type": "Cash/Surety",
+          "bond_amount": "$10,000.00"
+        },
+        {
+          "bond_number": "2022-00012583",
+          "bond_type": "None",
+          "bond_amount": "$0.00"
+        },
+        {
+          "bond_number": "2022-00012309",
+          "bond_type": "Cash/Surety",
+          "bond_amount": "$750.00"
+        },
+        {
+          "bond_number": "2022-00011058",
+          "bond_type": "None",
+          "bond_amount": "$0.00"
+        },
+        {
+          "bond_number": "2022-00004354",
+          "bond_type": "None",
+          "bond_amount": "$0.00"
+        },
+        {
+          "bond_number": "2019-00007554",
+          "bond_type": "10% or Cash Surety",
+          "bond_amount": "$2,500.00"
+        },
+        {
+          "bond_number": "2018-00012371",
+          "bond_type": "10% or Cash Surety",
+          "bond_amount": "$1,000.00"
+        }
+      ],
+      "mugshots": [
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C52GKG1?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C52FOLF?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C52DO2D?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C52DBR4?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C524IQ6?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C52431Z?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C523M7M?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C5237S0?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C521F14?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C51UR3V?type=Detail"
+      ],
+      "photo_ids": [
+        "1C52GKG1",
+        "1C52FOLF",
+        "1C52DO2D",
+        "1C52DBR4",
+        "1C524IQ6",
+        "1C52431Z",
+        "1C523M7M",
+        "1C5237S0",
+        "1C521F14",
+        "1C51UR3V"
+      ],
+      "subject_number": "3278",
+      "scraped_at": "2026-09-07T21:26:55.759070Z"
+    },
+    {
       "booking_id": "dbb0cb948dd7",
       "inmate_id": "-685081",
       "name": "MCCALL, EDMOND M Junior",
@@ -398813,29 +399982,29 @@
       "mugshots": [
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C52PL2I?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C50RMJU?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR06I6Y?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR06I6Z?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR06I6Y?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR06I6X?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR06I78?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR06I77?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR06I75?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR06I77?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR06I76?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR06I72?type=Detail"
       ],
       "photo_ids": [
         "1C52PL2I",
         "1C50RMJU",
-        "SHR06I6Y",
         "SHR06I6Z",
+        "SHR06I6Y",
         "SHR06I6X",
         "SHR06I78",
-        "SHR06I77",
         "SHR06I75",
+        "SHR06I77",
         "SHR06I76",
         "SHR06I72"
       ],
       "subject_number": "759",
-      "scraped_at": "2026-09-07T17:56:36.666661Z"
+      "scraped_at": "2026-09-07T21:26:27.015308Z"
     },
     {
       "booking_id": "87d24aec8d30",
@@ -400362,7 +401531,7 @@
         "1C51HX7P"
       ],
       "subject_number": "529655",
-      "scraped_at": "2026-09-07T17:56:56.353823Z"
+      "scraped_at": "2026-09-07T21:26:41.691951Z"
     },
     {
       "booking_id": "18c153804985",
@@ -427947,7 +429116,7 @@
         "1C50MALD"
       ],
       "subject_number": "36810",
-      "scraped_at": "2026-09-07T17:56:44.169102Z"
+      "scraped_at": "2026-09-07T21:26:29.406004Z"
     },
     {
       "booking_id": "e75a8d6f2a2c",
@@ -440440,7 +441609,7 @@
         "1C51R05D"
       ],
       "subject_number": "31472",
-      "scraped_at": "2026-09-07T17:56:53.154836Z"
+      "scraped_at": "2026-09-07T21:26:38.409235Z"
     },
     {
       "booking_id": "0e0b6d2e1289",
@@ -453942,8 +455111,8 @@
       "mugshots": [
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C52PM32?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C51GJ2N?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR09NV1?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR09NV2?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR09NV1?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR09NUW?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR09NV0?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR09NUX?type=Detail",
@@ -453954,8 +455123,8 @@
       "photo_ids": [
         "1C52PM32",
         "1C51GJ2N",
-        "SHR09NV1",
         "SHR09NV2",
+        "SHR09NV1",
         "SHR09NUW",
         "SHR09NV0",
         "SHR09NUX",
@@ -453964,7 +455133,7 @@
         "SHR09NUV"
       ],
       "subject_number": "131891",
-      "scraped_at": "2026-09-07T17:56:55.502760Z"
+      "scraped_at": "2026-09-07T21:26:40.855456Z"
     },
     {
       "booking_id": "95c3c43fd22f",
@@ -473676,7 +474845,7 @@
         "SHR08J2X"
       ],
       "subject_number": "81232",
-      "scraped_at": "2026-09-07T12:40:12.492592Z"
+      "scraped_at": "2026-09-07T21:26:20.482014Z"
     },
     {
       "booking_id": "c0f8d62809b0",
@@ -476186,7 +477355,7 @@
         "1C51Q441"
       ],
       "subject_number": "148501",
-      "scraped_at": "2026-09-07T17:56:49.420057Z"
+      "scraped_at": "2026-09-07T21:26:34.641749Z"
     },
     {
       "booking_id": "baa4975b3851",
@@ -489347,7 +490516,7 @@
         "1C52APBO"
       ],
       "subject_number": "545957",
-      "scraped_at": "2026-09-07T17:57:10.693256Z"
+      "scraped_at": "2026-09-07T21:26:59.513760Z"
     },
     {
       "booking_id": "1a7b6747f0b0",
@@ -516507,17 +517676,17 @@
       "mugshots": [
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C52PLFF?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C510T42?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08ODR?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08ODS?type=Detail"
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08ODS?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08ODR?type=Detail"
       ],
       "photo_ids": [
         "1C52PLFF",
         "1C510T42",
-        "SHR08ODR",
-        "SHR08ODS"
+        "SHR08ODS",
+        "SHR08ODR"
       ],
       "subject_number": "86626",
-      "scraped_at": "2026-09-07T17:57:00.953189Z"
+      "scraped_at": "2026-09-07T21:26:47.058344Z"
     },
     {
       "booking_id": "d237540e1b24",
