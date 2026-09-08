@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-07T23:43:14.570310Z",
+  "last_updated": "2026-09-08T01:27:46.039330Z",
   "total": 3098,
   "bookings": [
     {
@@ -1935,7 +1935,7 @@
         "1C52PMPM"
       ],
       "subject_number": "553067",
-      "scraped_at": "2026-09-07T23:43:08.702201Z"
+      "scraped_at": "2026-09-08T01:27:42.247107Z"
     },
     {
       "booking_id": "219caf655fba",
@@ -1949,13 +1949,13 @@
       "weight": "158.0 lbs",
       "address": "",
       "in_custody": "Yes",
-      "housing_facility": "",
+      "housing_facility": "Lorain County Jail",
       "booking_date": "9/7/2026 7:29 PM",
       "booking_date_raw": "9/7/2026 7:29 PM",
       "release_date": "",
       "booking_origin": "Avon Police Department",
       "prisoner_type": "New Arrest",
-      "classification": "",
+      "classification": "MINIMUM",
       "total_bond": "$2,000.00",
       "total_bail": "$2,000.00",
       "charges": [
@@ -1979,7 +1979,7 @@
       "mugshots": [],
       "photo_ids": [],
       "subject_number": "553083",
-      "scraped_at": "2026-09-07T23:43:09.406339Z"
+      "scraped_at": "2026-09-08T01:27:42.932194Z"
     },
     {
       "booking_id": "37b7b8c2f68d",
@@ -2027,7 +2027,7 @@
         "1C52PMP1"
       ],
       "subject_number": "52166",
-      "scraped_at": "2026-09-07T23:42:50.539491Z"
+      "scraped_at": "2026-09-08T01:27:28.237964Z"
     },
     {
       "booking_id": "c0b01b82b523",
@@ -2075,7 +2075,7 @@
         "1C52PMGA"
       ],
       "subject_number": "553065",
-      "scraped_at": "2026-09-07T23:42:57.318089Z"
+      "scraped_at": "2026-09-08T01:27:34.241101Z"
     },
     {
       "booking_id": "64e9018dd511",
@@ -2116,10 +2116,14 @@
           "bond_amount": "$0.00"
         }
       ],
-      "mugshots": [],
-      "photo_ids": [],
+      "mugshots": [
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C52PNAL?type=Detail"
+      ],
+      "photo_ids": [
+        "1C52PNAL"
+      ],
       "subject_number": "553082",
-      "scraped_at": "2026-09-07T23:42:23.828671Z"
+      "scraped_at": "2026-09-08T01:27:14.392959Z"
     },
     {
       "booking_id": "7424345fe9a0",
@@ -2181,7 +2185,7 @@
         "1C52PN3C"
       ],
       "subject_number": "553081",
-      "scraped_at": "2026-09-07T23:42:26.990274Z"
+      "scraped_at": "2026-09-08T01:27:15.911416Z"
     },
     {
       "booking_id": "1c1bff07f340",
@@ -4380,7 +4384,7 @@
         "1C52PMAL"
       ],
       "subject_number": "109937",
-      "scraped_at": "2026-09-07T23:42:36.645410Z"
+      "scraped_at": "2026-09-08T01:27:22.227257Z"
     },
     {
       "booking_id": "5e5f7828ca36",
@@ -4428,7 +4432,7 @@
         "1C52PLTQ"
       ],
       "subject_number": "553061",
-      "scraped_at": "2026-09-07T23:42:29.297899Z"
+      "scraped_at": "2026-09-08T01:27:17.287907Z"
     },
     {
       "booking_id": "9db229a5154b",
@@ -4473,28 +4477,28 @@
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C52PM91?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07RTV?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07RU1?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07RU0?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07RTT?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07RTX?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07RU0?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07RTZ?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07RTX?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07RTY?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07RTW?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07RTS?type=Detail"
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07RTU?type=Detail"
       ],
       "photo_ids": [
         "1C52PM91",
         "SHR07RTV",
         "SHR07RU1",
-        "SHR07RU0",
         "SHR07RTT",
-        "SHR07RTX",
+        "SHR07RU0",
         "SHR07RTZ",
+        "SHR07RTX",
         "SHR07RTY",
         "SHR07RTW",
-        "SHR07RTS"
+        "SHR07RTU"
       ],
       "subject_number": "44952",
-      "scraped_at": "2026-09-07T23:43:06.151246Z"
+      "scraped_at": "2026-09-08T01:27:40.851464Z"
     },
     {
       "booking_id": "f43c2d644fab",
@@ -4542,7 +4546,7 @@
         "1C52PLPI"
       ],
       "subject_number": "525726",
-      "scraped_at": "2026-09-07T23:42:34.077855Z"
+      "scraped_at": "2026-09-08T01:27:21.531958Z"
     },
     {
       "booking_id": "8e0ed4ba772d",
@@ -6115,7 +6119,7 @@
         "1C52PLF1"
       ],
       "subject_number": "553038",
-      "scraped_at": "2026-09-07T23:42:24.697765Z"
+      "scraped_at": "2026-09-08T01:27:15.148710Z"
     },
     {
       "booking_id": "feeb16be1f64",
@@ -6172,7 +6176,7 @@
         "1C52PLH7"
       ],
       "subject_number": "545882",
-      "scraped_at": "2026-09-07T23:42:39.243317Z"
+      "scraped_at": "2026-09-08T01:27:24.550699Z"
     },
     {
       "booking_id": "b42f7889b48b",
@@ -6215,16 +6219,16 @@
       ],
       "mugshots": [
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C52PL2Q?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08U3T?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08U3S?type=Detail"
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08U3S?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08U3T?type=Detail"
       ],
       "photo_ids": [
         "1C52PL2Q",
-        "SHR08U3T",
-        "SHR08U3S"
+        "SHR08U3S",
+        "SHR08U3T"
       ],
       "subject_number": "92881",
-      "scraped_at": "2026-09-07T23:42:51.246250Z"
+      "scraped_at": "2026-09-08T01:27:28.922804Z"
     },
     {
       "booking_id": "07aa1d0c31de",
@@ -6276,30 +6280,30 @@
       ],
       "mugshots": [
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C52PKZ0?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07CXE?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07CXA?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07CX9?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07CXE?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07CX8?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07CXG?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07CX9?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07CXD?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07CXG?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07CX7?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07CXC?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR07CXF?type=Detail"
       ],
       "photo_ids": [
         "1C52PKZ0",
-        "SHR07CXE",
         "SHR07CXA",
-        "SHR07CX9",
+        "SHR07CXE",
         "SHR07CX8",
-        "SHR07CXG",
+        "SHR07CX9",
         "SHR07CXD",
+        "SHR07CXG",
         "SHR07CX7",
         "SHR07CXC",
         "SHR07CXF"
       ],
       "subject_number": "27040",
-      "scraped_at": "2026-09-07T23:42:49.834779Z"
+      "scraped_at": "2026-09-08T01:27:27.543822Z"
     },
     {
       "booking_id": "9a67889d6973",
@@ -6347,7 +6351,7 @@
         "1C52PKZC"
       ],
       "subject_number": "553037",
-      "scraped_at": "2026-09-07T23:42:28.518936Z"
+      "scraped_at": "2026-09-08T01:27:16.595988Z"
     },
     {
       "booking_id": "d2c456019ca8",
@@ -6395,7 +6399,7 @@
         "1C52PLMO"
       ],
       "subject_number": "553060",
-      "scraped_at": "2026-09-07T23:43:01.633495Z"
+      "scraped_at": "2026-09-08T01:27:37.131367Z"
     },
     {
       "booking_id": "f6dbe19ee4f4",
@@ -6443,7 +6447,7 @@
         "1C52PLM1"
       ],
       "subject_number": "553058",
-      "scraped_at": "2026-09-07T23:42:43.766631Z"
+      "scraped_at": "2026-09-08T01:27:26.076326Z"
     },
     {
       "booking_id": "b7f5c4d26321",
@@ -6533,7 +6537,7 @@
         "1C52PLNP"
       ],
       "subject_number": "553057",
-      "scraped_at": "2026-09-07T23:42:21.360825Z"
+      "scraped_at": "2026-09-08T01:27:13.710283Z"
     },
     {
       "booking_id": "bbd327200a9a",
@@ -6581,7 +6585,7 @@
         "1C52PLNK"
       ],
       "subject_number": "553051",
-      "scraped_at": "2026-09-07T23:43:03.218658Z"
+      "scraped_at": "2026-09-08T01:27:38.712124Z"
     },
     {
       "booking_id": "7abc9293c2f4",
@@ -66729,7 +66733,7 @@
         "1C50VDFH"
       ],
       "subject_number": "128155",
-      "scraped_at": "2026-09-07T23:42:32.200789Z"
+      "scraped_at": "2026-09-08T01:27:20.013416Z"
     },
     {
       "booking_id": "7dbd901e3c3a",
@@ -73404,7 +73408,7 @@
         "1C506DW4"
       ],
       "subject_number": "501964",
-      "scraped_at": "2026-09-07T23:42:55.818708Z"
+      "scraped_at": "2026-09-08T01:27:32.618231Z"
     },
     {
       "booking_id": "11845cad2035",
@@ -125201,7 +125205,7 @@
         "1C52FJ7K"
       ],
       "subject_number": "548180",
-      "scraped_at": "2026-09-07T23:43:12.437014Z"
+      "scraped_at": "2026-09-08T01:27:45.312965Z"
     },
     {
       "booking_id": "616ddff3ca1a",
@@ -150580,7 +150584,7 @@
         "1C52F5ZG"
       ],
       "subject_number": "547971",
-      "scraped_at": "2026-09-07T23:43:07.964083Z"
+      "scraped_at": "2026-09-08T01:27:41.559910Z"
     },
     {
       "booking_id": "0a0102b1e4ec",
@@ -166854,7 +166858,7 @@
         "1C52E8P6"
       ],
       "subject_number": "83304",
-      "scraped_at": "2026-09-07T23:42:53.516413Z"
+      "scraped_at": "2026-09-08T01:27:31.137153Z"
     },
     {
       "booking_id": "39547d1fb796",
@@ -195014,7 +195018,7 @@
         "1C50R18E"
       ],
       "subject_number": "88506",
-      "scraped_at": "2026-09-07T23:43:02.518130Z"
+      "scraped_at": "2026-09-08T01:27:38.020650Z"
     },
     {
       "booking_id": "8aaeec87d0b6",
@@ -207761,7 +207765,7 @@
         "1C50D87J"
       ],
       "subject_number": "507194",
-      "scraped_at": "2026-09-07T23:43:11.698623Z"
+      "scraped_at": "2026-09-08T01:27:44.594222Z"
     },
     {
       "booking_id": "6f6d92df3970",
@@ -289358,7 +289362,7 @@
         "SHR09FQH"
       ],
       "subject_number": "119087",
-      "scraped_at": "2026-09-07T23:42:56.603761Z"
+      "scraped_at": "2026-09-08T01:27:33.390411Z"
     },
     {
       "booking_id": "18f143092211",
@@ -291674,7 +291678,7 @@
         "1C51LHYS"
       ],
       "subject_number": "531782",
-      "scraped_at": "2026-09-07T23:43:04.678174Z"
+      "scraped_at": "2026-09-08T01:27:39.436633Z"
     },
     {
       "booking_id": "910884a1e855",
@@ -310256,7 +310260,7 @@
         "1C50BSOL"
       ],
       "subject_number": "10132",
-      "scraped_at": "2026-09-07T23:42:33.263044Z"
+      "scraped_at": "2026-09-08T01:27:20.841569Z"
     },
     {
       "booking_id": "40bfad081417",
@@ -318799,27 +318803,27 @@
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C52KARI?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C524MEY?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C523YJA?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08KDI?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08KDH?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08KDG?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08KDB?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08KDA?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08KDC?type=Detail"
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08KDG?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08KDH?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08KDI?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08KDC?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08KDA?type=Detail"
       ],
       "photo_ids": [
         "1C52PMM1",
         "1C52KARI",
         "1C524MEY",
         "1C523YJA",
-        "SHR08KDI",
-        "SHR08KDH",
-        "SHR08KDG",
         "SHR08KDB",
-        "SHR08KDA",
-        "SHR08KDC"
+        "SHR08KDG",
+        "SHR08KDH",
+        "SHR08KDI",
+        "SHR08KDC",
+        "SHR08KDA"
       ],
       "subject_number": "82655",
-      "scraped_at": "2026-09-07T23:42:37.604714Z"
+      "scraped_at": "2026-09-08T01:27:23.152920Z"
     },
     {
       "booking_id": "e185f9373e9d",
@@ -349532,11 +349536,11 @@
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C51K28N?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR06NFH?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR06NFM?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR06NFF?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR06NFE?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR06NFF?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR06NFO?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR06NFL?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR06NFG?type=Detail"
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR06NFK?type=Detail"
       ],
       "photo_ids": [
         "1C52PLSS",
@@ -349544,14 +349548,14 @@
         "1C51K28N",
         "SHR06NFH",
         "SHR06NFM",
-        "SHR06NFF",
         "SHR06NFE",
+        "SHR06NFF",
         "SHR06NFO",
         "SHR06NFL",
-        "SHR06NFG"
+        "SHR06NFK"
       ],
       "subject_number": "3162",
-      "scraped_at": "2026-09-07T23:42:59.519416Z"
+      "scraped_at": "2026-09-08T01:27:35.713242Z"
     },
     {
       "booking_id": "01e36f35c5a8",
@@ -362858,6 +362862,7 @@
         }
       ],
       "mugshots": [
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C52PNBO?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C52N2R0?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C52K3U9?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C52JZ1G?type=Detail",
@@ -362866,10 +362871,10 @@
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C52CPOQ?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C524B34?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C520WN4?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C51WXQR?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C51SMXY?type=Detail"
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C51WXQR?type=Detail"
       ],
       "photo_ids": [
+        "1C52PNBO",
         "1C52N2R0",
         "1C52K3U9",
         "1C52JZ1G",
@@ -362878,11 +362883,10 @@
         "1C52CPOQ",
         "1C524B34",
         "1C520WN4",
-        "1C51WXQR",
-        "1C51SMXY"
+        "1C51WXQR"
       ],
       "subject_number": "440",
-      "scraped_at": "2026-09-07T23:42:20.580449Z"
+      "scraped_at": "2026-09-08T01:27:13.024102Z"
     },
     {
       "booking_id": "3fd7af7b76bf",
@@ -366077,7 +366081,7 @@
         "1C511F6X"
       ],
       "subject_number": "512828",
-      "scraped_at": "2026-09-07T23:42:58.062044Z"
+      "scraped_at": "2026-09-08T01:27:34.976259Z"
     },
     {
       "booking_id": "c97b414788b4",
@@ -370658,7 +370662,7 @@
         "1C51THUL"
       ],
       "subject_number": "537058",
-      "scraped_at": "2026-09-07T23:42:44.707460Z"
+      "scraped_at": "2026-09-08T01:27:26.850709Z"
     },
     {
       "booking_id": "c826d69a505f",
@@ -377928,7 +377932,7 @@
         "1C50JNEN"
       ],
       "subject_number": "73865",
-      "scraped_at": "2026-09-07T23:42:31.073695Z"
+      "scraped_at": "2026-09-08T01:27:19.148399Z"
     },
     {
       "booking_id": "35b2e99b9d0e",
@@ -390258,7 +390262,7 @@
         "1C51T2VS"
       ],
       "subject_number": "546217",
-      "scraped_at": "2026-09-07T23:43:05.414064Z"
+      "scraped_at": "2026-09-08T01:27:40.162343Z"
     },
     {
       "booking_id": "6b8ade086909",
@@ -394258,7 +394262,7 @@
         "SHR09RLY"
       ],
       "subject_number": "139436",
-      "scraped_at": "2026-09-07T23:42:52.783265Z"
+      "scraped_at": "2026-09-08T01:27:30.417841Z"
     },
     {
       "booking_id": "dbd381c8a2de",
@@ -400110,7 +400114,7 @@
         "1C521F14"
       ],
       "subject_number": "3278",
-      "scraped_at": "2026-09-07T23:43:10.946487Z"
+      "scraped_at": "2026-09-08T01:27:43.851260Z"
     },
     {
       "booking_id": "dbb0cb948dd7",
@@ -400326,29 +400330,29 @@
       "mugshots": [
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C52PL2I?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C50RMJU?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR06I6Z?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR06I6Y?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR06I6Z?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR06I6X?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR06I78?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR06I75?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR06I77?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR06I75?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR06I76?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR06I72?type=Detail"
       ],
       "photo_ids": [
         "1C52PL2I",
         "1C50RMJU",
-        "SHR06I6Z",
         "SHR06I6Y",
+        "SHR06I6Z",
         "SHR06I6X",
         "SHR06I78",
-        "SHR06I75",
         "SHR06I77",
+        "SHR06I75",
         "SHR06I76",
         "SHR06I72"
       ],
       "subject_number": "759",
-      "scraped_at": "2026-09-07T23:42:38.534547Z"
+      "scraped_at": "2026-09-08T01:27:23.863992Z"
     },
     {
       "booking_id": "87d24aec8d30",
@@ -429460,7 +429464,7 @@
         "1C50MALD"
       ],
       "subject_number": "36810",
-      "scraped_at": "2026-09-07T23:42:41.192770Z"
+      "scraped_at": "2026-09-08T01:27:25.389888Z"
     },
     {
       "booking_id": "e75a8d6f2a2c",
@@ -441953,7 +441957,7 @@
         "1C51R05D"
       ],
       "subject_number": "31472",
-      "scraped_at": "2026-09-07T23:42:51.977727Z"
+      "scraped_at": "2026-09-08T01:27:29.637459Z"
     },
     {
       "booking_id": "0e0b6d2e1289",
@@ -455455,8 +455459,8 @@
       "mugshots": [
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C52PM32?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C51GJ2N?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR09NV2?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR09NV1?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR09NV2?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR09NUW?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR09NV0?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR09NUX?type=Detail",
@@ -455467,8 +455471,8 @@
       "photo_ids": [
         "1C52PM32",
         "1C51GJ2N",
-        "SHR09NV2",
         "SHR09NV1",
+        "SHR09NV2",
         "SHR09NUW",
         "SHR09NV0",
         "SHR09NUX",
@@ -455477,7 +455481,7 @@
         "SHR09NUV"
       ],
       "subject_number": "131891",
-      "scraped_at": "2026-09-07T23:42:54.250265Z"
+      "scraped_at": "2026-09-08T01:27:31.863174Z"
     },
     {
       "booking_id": "95c3c43fd22f",
@@ -475171,10 +475175,10 @@
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C51GS7M?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C50JENF?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C50G725?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08J30?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08J2Z?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08J2Y?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08J2X?type=Detail"
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08J30?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08J2X?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08J2Y?type=Detail"
       ],
       "photo_ids": [
         "1C52PLHF",
@@ -475183,13 +475187,13 @@
         "1C51GS7M",
         "1C50JENF",
         "1C50G725",
-        "SHR08J30",
         "SHR08J2Z",
-        "SHR08J2Y",
-        "SHR08J2X"
+        "SHR08J30",
+        "SHR08J2X",
+        "SHR08J2Y"
       ],
       "subject_number": "81232",
-      "scraped_at": "2026-09-07T23:42:30.134101Z"
+      "scraped_at": "2026-09-08T01:27:18.353561Z"
     },
     {
       "booking_id": "c0f8d62809b0",
@@ -490860,7 +490864,7 @@
         "1C52APBO"
       ],
       "subject_number": "545957",
-      "scraped_at": "2026-09-07T23:43:14.569354Z"
+      "scraped_at": "2026-09-08T01:27:46.037861Z"
     },
     {
       "booking_id": "1a7b6747f0b0",
@@ -518020,17 +518024,17 @@
       "mugshots": [
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C52PLFF?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C510T42?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08ODS?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08ODR?type=Detail"
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08ODR?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08ODS?type=Detail"
       ],
       "photo_ids": [
         "1C52PLFF",
         "1C510T42",
-        "SHR08ODS",
-        "SHR08ODR"
+        "SHR08ODR",
+        "SHR08ODS"
       ],
       "subject_number": "86626",
-      "scraped_at": "2026-09-07T23:43:00.260744Z"
+      "scraped_at": "2026-09-08T01:27:36.437046Z"
     },
     {
       "booking_id": "d237540e1b24",
