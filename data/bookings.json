@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-19T22:04:38.911691Z",
-  "total": 4137,
+  "last_updated": "2026-11-20T03:21:15.864531Z",
+  "total": 4139,
   "bookings": [
     {
       "booking_id": "222d0aed58d9",
@@ -32634,7 +32634,7 @@
         "1C52H063"
       ],
       "subject_number": "548852",
-      "scraped_at": "2026-11-19T22:04:03.790468Z"
+      "scraped_at": "2026-11-20T03:20:42.191487Z"
     },
     {
       "booking_id": "5d87bef8345f",
@@ -36704,7 +36704,7 @@
         "1C50SYBY"
       ],
       "subject_number": "1006",
-      "scraped_at": "2026-11-19T22:03:43.113092Z"
+      "scraped_at": "2026-11-20T03:20:35.259467Z"
     },
     {
       "booking_id": "6bee70f6e77d",
@@ -48625,7 +48625,7 @@
         "SHR086EX"
       ],
       "subject_number": "66792",
-      "scraped_at": "2026-11-19T22:04:12.802312Z"
+      "scraped_at": "2026-11-20T03:20:51.112490Z"
     },
     {
       "booking_id": "639647151b11",
@@ -58659,7 +58659,7 @@
         "1C52PH3A"
       ],
       "subject_number": "552975",
-      "scraped_at": "2026-11-19T22:04:17.813961Z"
+      "scraped_at": "2026-11-20T03:20:55.588811Z"
     },
     {
       "booking_id": "889aaf0bcbeb",
@@ -65493,7 +65493,7 @@
         "1C52OVLL"
       ],
       "subject_number": "552674",
-      "scraped_at": "2026-11-19T22:04:36.995972Z"
+      "scraped_at": "2026-11-20T03:21:12.583113Z"
     },
     {
       "booking_id": "58e5ee991314",
@@ -80112,7 +80112,7 @@
         "1C516KNH"
       ],
       "subject_number": "523698",
-      "scraped_at": "2026-11-19T22:04:32.351753Z"
+      "scraped_at": "2026-11-20T03:21:06.428692Z"
     },
     {
       "booking_id": "3c18a2f08ff6",
@@ -84417,13 +84417,13 @@
     {
       "booking_id": "3a898b3a1bcf",
       "inmate_id": "-1490796",
-      "name": "TIFFANY, JOHN",
+      "name": "TIFFANY, JOHN THOMAS",
       "dob": "03/13/1992",
       "age": "34",
       "gender": "Male",
       "race": "White",
       "height": "6' 5\"",
-      "weight": "220.0 lbs",
+      "weight": "214.0 lbs",
       "address": "Ohio",
       "in_custody": "Yes",
       "housing_facility": "Lorain County Jail",
@@ -84436,6 +84436,15 @@
       "total_bond": "$0.00",
       "total_bail": "$0.00",
       "charges": [
+        {
+          "number": "1",
+          "description": "Acts in contempt of court",
+          "counts": "1",
+          "offense_date": "11/19/2026 8:22 PM",
+          "docket_number": "24CR112016",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
         {
           "number": "1",
           "description": "Acts in contempt of court",
@@ -84491,17 +84500,25 @@
           "arresting_agency": ""
         }
       ],
-      "bonds": [],
+      "bonds": [
+        {
+          "bond_number": "2026-00007152",
+          "bond_type": "Cash/Surety",
+          "bond_amount": "$50,000.00"
+        }
+      ],
       "mugshots": [
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C52RGGQ?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C52OAOQ?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C527H6X?type=Detail"
       ],
       "photo_ids": [
+        "1C52RGGQ",
         "1C52OAOQ",
         "1C527H6X"
       ],
       "subject_number": "544427",
-      "scraped_at": "2026-07-19T23:05:07.748685Z"
+      "scraped_at": "2026-11-20T03:21:08.942668Z"
     },
     {
       "booking_id": "3dd37155982c",
@@ -90615,7 +90632,7 @@
         "1C516ESE"
       ],
       "subject_number": "523615",
-      "scraped_at": "2026-11-19T22:03:35.637726Z"
+      "scraped_at": "2026-11-20T03:20:27.415666Z"
     },
     {
       "booking_id": "9f6b926f29c3",
@@ -93742,7 +93759,7 @@
         "SHR07LQT"
       ],
       "subject_number": "37398",
-      "scraped_at": "2026-11-19T22:04:01.461207Z"
+      "scraped_at": "2026-11-20T03:20:39.241450Z"
     },
     {
       "booking_id": "eb0c0135aaf1",
@@ -113187,7 +113204,7 @@
         "1C5120HW"
       ],
       "subject_number": "122337",
-      "scraped_at": "2026-11-19T22:04:29.111127Z"
+      "scraped_at": "2026-11-20T03:21:04.074998Z"
     },
     {
       "booking_id": "37a711bc83f9",
@@ -115498,7 +115515,7 @@
         "1C52G2EC"
       ],
       "subject_number": "548444",
-      "scraped_at": "2026-11-19T22:04:02.308529Z"
+      "scraped_at": "2026-11-20T03:20:40.041660Z"
     },
     {
       "booking_id": "a9f0531b9e42",
@@ -127772,7 +127789,7 @@
         "1C50EVDI"
       ],
       "subject_number": "508239",
-      "scraped_at": "2026-11-19T22:04:09.141020Z"
+      "scraped_at": "2026-11-20T03:20:48.001528Z"
     },
     {
       "booking_id": "33ae1fb171f6",
@@ -130493,11 +130510,11 @@
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C52C91L?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C510JGV?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C50X0PV?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08NGH?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08NGD?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08NGE?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08NGH?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08NGG?type=Detail",
-        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08NGF?type=Detail"
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08NGE?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR08NGC?type=Detail"
       ],
       "photo_ids": [
         "1C52REJW",
@@ -130505,14 +130522,14 @@
         "1C52C91L",
         "1C510JGV",
         "1C50X0PV",
-        "SHR08NGH",
         "SHR08NGD",
-        "SHR08NGE",
+        "SHR08NGH",
         "SHR08NGG",
-        "SHR08NGF"
+        "SHR08NGE",
+        "SHR08NGC"
       ],
       "subject_number": "85599",
-      "scraped_at": "2026-11-19T22:04:18.545675Z"
+      "scraped_at": "2026-11-20T03:20:56.400777Z"
     },
     {
       "booking_id": "c78231e03b4e",
@@ -131579,7 +131596,7 @@
         "SHR09CMJ"
       ],
       "subject_number": "114881",
-      "scraped_at": "2026-11-19T22:03:34.186062Z"
+      "scraped_at": "2026-11-20T03:20:25.850301Z"
     },
     {
       "booking_id": "44e9e2e87fa5",
@@ -152160,7 +152177,7 @@
         "1C51PTBH"
       ],
       "subject_number": "532921",
-      "scraped_at": "2026-11-19T22:04:34.040394Z"
+      "scraped_at": "2026-11-20T03:21:08.178164Z"
     },
     {
       "booking_id": "2252726d5ab6",
@@ -153217,7 +153234,7 @@
         "SHR0779R"
       ],
       "subject_number": "20828",
-      "scraped_at": "2026-11-19T22:03:44.518511Z"
+      "scraped_at": "2026-11-20T03:20:36.754857Z"
     },
     {
       "booking_id": "47666985d721",
@@ -157918,7 +157935,7 @@
         "1C51EPPO"
       ],
       "subject_number": "515554",
-      "scraped_at": "2026-11-19T22:04:06.188916Z"
+      "scraped_at": "2026-11-20T03:20:44.838841Z"
     },
     {
       "booking_id": "f8f0b71c8567",
@@ -160573,7 +160590,7 @@
         "SHR09OOJ"
       ],
       "subject_number": "133518",
-      "scraped_at": "2026-11-19T22:03:37.816867Z"
+      "scraped_at": "2026-11-20T03:20:29.750219Z"
     },
     {
       "booking_id": "8d1a9f0893ef",
@@ -170591,6 +170608,15 @@
       "charges": [
         {
           "number": "1",
+          "description": "Trafficking in Drugs",
+          "counts": "1",
+          "offense_date": "11/19/2026 8:43 PM",
+          "docket_number": "",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "1",
           "description": "Violation of Protection Order",
           "counts": "1",
           "offense_date": "6/4/2026 10:24 PM",
@@ -170765,7 +170791,7 @@
         {
           "bond_number": "2026-00005509",
           "bond_type": "Cash/Surety",
-          "bond_amount": "$50,000.00"
+          "bond_amount": "$10,000.00"
         },
         {
           "bond_number": "2021-00008789",
@@ -170789,6 +170815,7 @@
         }
       ],
       "mugshots": [
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C52RGHY?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C52N62A?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C52JVJP?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C52EL2R?type=Detail",
@@ -170800,6 +170827,7 @@
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C515IJE?type=Detail"
       ],
       "photo_ids": [
+        "1C52RGHY",
         "1C52N62A",
         "1C52JVJP",
         "1C52EL2R",
@@ -170811,7 +170839,7 @@
         "1C515IJE"
       ],
       "subject_number": "523081",
-      "scraped_at": "2026-06-07T23:10:58.175266Z"
+      "scraped_at": "2026-11-20T03:20:23.515582Z"
     },
     {
       "booking_id": "99e122363ffa",
@@ -198960,7 +198988,7 @@
         "1C51YRVP"
       ],
       "subject_number": "538659",
-      "scraped_at": "2026-11-19T22:04:11.354147Z"
+      "scraped_at": "2026-11-20T03:20:50.369092Z"
     },
     {
       "booking_id": "1dd289934ded",
@@ -222803,7 +222831,7 @@
         "1C519F8L"
       ],
       "subject_number": "521948",
-      "scraped_at": "2026-11-19T22:03:41.659759Z"
+      "scraped_at": "2026-11-20T03:20:33.649716Z"
     },
     {
       "booking_id": "7f7b786eb6f5",
@@ -274562,7 +274590,7 @@
         "1C52DHHH"
       ],
       "subject_number": "544915",
-      "scraped_at": "2026-11-19T22:04:13.501058Z"
+      "scraped_at": "2026-11-20T03:20:51.856631Z"
     },
     {
       "booking_id": "1731dacfda1c",
@@ -293480,7 +293508,7 @@
         "1C50V0QR"
       ],
       "subject_number": "111846",
-      "scraped_at": "2026-11-19T22:03:45.216336Z"
+      "scraped_at": "2026-11-20T03:20:37.522911Z"
     },
     {
       "booking_id": "0c88e5699213",
@@ -304284,7 +304312,7 @@
         "1C524H8D"
       ],
       "subject_number": "542914",
-      "scraped_at": "2026-11-19T22:04:36.307124Z"
+      "scraped_at": "2026-11-20T03:21:11.401240Z"
     },
     {
       "booking_id": "77da27fa2b55",
@@ -304875,7 +304903,7 @@
         "1C51CHPX"
       ],
       "subject_number": "526862",
-      "scraped_at": "2026-11-19T22:03:33.478689Z"
+      "scraped_at": "2026-11-20T03:20:25.096754Z"
     },
     {
       "booking_id": "9d9524bc6207",
@@ -307280,7 +307308,7 @@
         "1C50LU02"
       ],
       "subject_number": "11381",
-      "scraped_at": "2026-11-19T22:03:38.555779Z"
+      "scraped_at": "2026-11-20T03:20:30.489026Z"
     },
     {
       "booking_id": "b26d927111b5",
@@ -310666,6 +310694,180 @@
       ],
       "subject_number": "547343",
       "scraped_at": "2026-11-08T20:43:05.778787Z"
+    },
+    {
+      "booking_id": "f3d6a18e346d",
+      "inmate_id": "-745009",
+      "name": "MCCRAY, ZHANE N",
+      "dob": "04/12/1995",
+      "age": "31",
+      "gender": "Female",
+      "race": "Black/African American",
+      "height": "5' 7\"",
+      "weight": "210.0 lbs",
+      "address": "ELYRIA, Ohio 44035",
+      "in_custody": "Yes",
+      "housing_facility": "Lorain County Jail",
+      "booking_date": "5/18/2025 1:48 AM",
+      "booking_date_raw": "5/18/2025 1:48 AM",
+      "release_date": "5/18/2025 7:50 AM",
+      "booking_origin": "Elyria Police Department",
+      "prisoner_type": "Warrant",
+      "classification": "",
+      "total_bond": "$0.00",
+      "total_bail": "$0.00",
+      "charges": [
+        {
+          "number": "2",
+          "description": "Acts in contempt of court",
+          "counts": "1",
+          "offense_date": "11/19/2026 7:16 PM",
+          "docket_number": "25TRD03551",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "1",
+          "description": "Acts in contempt of court",
+          "counts": "1",
+          "offense_date": "11/19/2026 7:16 PM",
+          "docket_number": "25CRB01242",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "2",
+          "description": "Acts in contempt of court",
+          "counts": "1",
+          "offense_date": "1/23/2026 2:21 AM",
+          "docket_number": "25CRB01242",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "1",
+          "description": "Acts in contempt of court",
+          "counts": "1",
+          "offense_date": "1/23/2026 2:21 AM",
+          "docket_number": "25TRD03551",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "1",
+          "description": "Acts in contempt of court",
+          "counts": "1",
+          "offense_date": "8/1/2025 3:15 AM",
+          "docket_number": "24TRD05626",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "5",
+          "description": "Acts in contempt of court",
+          "counts": "1",
+          "offense_date": "5/18/2025 4:39 AM",
+          "docket_number": "24TRD06972",
+          "crime_class": "OSP ELYRIA",
+          "arresting_agency": ""
+        },
+        {
+          "number": "4",
+          "description": "DUS-FRA CANCELLATION OR NON PAYMENT OF JUDGMENT SUSPENSION",
+          "counts": "1",
+          "offense_date": "5/18/2025 2:03 AM",
+          "docket_number": "24TRD05626",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "3",
+          "description": "FICTITIOUS LICENSE PLATES, IDENTIFICATION NUMBER, OR MARKS",
+          "counts": "1",
+          "offense_date": "5/18/2025 2:03 AM",
+          "docket_number": "24TRD05626",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "2",
+          "description": "Display of License Plates",
+          "counts": "1",
+          "offense_date": "5/18/2025 2:03 AM",
+          "docket_number": "24TRD05626",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "1",
+          "description": "Acts in contempt of court",
+          "counts": "1",
+          "offense_date": "5/18/2025 2:03 AM",
+          "docket_number": "24TRD05626",
+          "crime_class": "",
+          "arresting_agency": ""
+        }
+      ],
+      "bonds": [
+        {
+          "bond_number": "2026-00000826",
+          "bond_type": "10% Cash Only",
+          "bond_amount": "$5,000.00"
+        },
+        {
+          "bond_number": "2026-00000827",
+          "bond_type": "10% Cash Only",
+          "bond_amount": "$3,000.00"
+        },
+        {
+          "bond_number": "2025-00007791",
+          "bond_type": "None",
+          "bond_amount": "$0.00"
+        },
+        {
+          "bond_number": "2025-00005108",
+          "bond_type": "Cash/Surety",
+          "bond_amount": "$500.00"
+        },
+        {
+          "bond_number": "2025-00005109",
+          "bond_type": "Cash/Surety",
+          "bond_amount": "$230.00"
+        },
+        {
+          "bond_number": "2025-00005110",
+          "bond_type": "Cash/Surety",
+          "bond_amount": "$250.00"
+        },
+        {
+          "bond_number": "2025-00005111",
+          "bond_type": "Cash/Surety",
+          "bond_amount": "$230.00"
+        },
+        {
+          "bond_number": "2025-00005119",
+          "bond_type": "Cash/Surety",
+          "bond_amount": "$2,500.00"
+        }
+      ],
+      "mugshots": [
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C52RGGC?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C52JT4W?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C52FOBT?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C52DT09?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR09OHU?type=Detail",
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/SHR09OHT?type=Detail"
+      ],
+      "photo_ids": [
+        "1C52RGGC",
+        "1C52JT4W",
+        "1C52FOBT",
+        "1C52DT09",
+        "SHR09OHU",
+        "SHR09OHT"
+      ],
+      "subject_number": "133169",
+      "scraped_at": "2026-11-20T03:20:58.017412Z"
     },
     {
       "booking_id": "5ccad9f94d72",
@@ -316416,7 +316618,7 @@
         "1C505CKA"
       ],
       "subject_number": "83645",
-      "scraped_at": "2026-11-19T22:04:19.304349Z"
+      "scraped_at": "2026-11-20T03:20:57.219910Z"
     },
     {
       "booking_id": "99dba3de4a72",
@@ -331047,14 +331249,14 @@
       "inmate_id": "-1578233",
       "name": "NEWSON, ALLEN L",
       "dob": "11/16/2003",
-      "age": "22",
+      "age": "23",
       "gender": "Male",
-      "race": "White",
+      "race": "Black/African American",
       "height": "5' 11\"",
-      "weight": "150.0 lbs",
-      "address": "ELYRIA, Ohio 44035",
-      "in_custody": "",
-      "housing_facility": "",
+      "weight": "158.0 lbs",
+      "address": "LAGRANGE, Ohio 44050",
+      "in_custody": "Yes",
+      "housing_facility": "Lorain County Jail",
       "booking_date": "4/9/2026 7:38 PM",
       "booking_date_raw": "4/9/2026 7:38 PM",
       "release_date": "4/9/2026 10:39 PM",
@@ -331064,6 +331266,15 @@
       "total_bond": "$0.00",
       "total_bail": "$0.00",
       "charges": [
+        {
+          "number": "1",
+          "description": "Disorderly Conduct Intoxication",
+          "counts": "1",
+          "offense_date": "11/19/2026 9:19 PM",
+          "docket_number": "26CRB02281",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
         {
           "number": "2",
           "description": "Assault Simple",
@@ -331119,15 +331330,17 @@
         }
       ],
       "mugshots": [
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C52RGHK?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C52OUO0?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C52LQ9E?type=Detail"
       ],
       "photo_ids": [
+        "1C52RGHK",
         "1C52OUO0",
         "1C52LQ9E"
       ],
       "subject_number": "551183",
-      "scraped_at": "2026-08-10T23:43:28.623715Z"
+      "scraped_at": "2026-11-20T03:21:01.677512Z"
     },
     {
       "booking_id": "cbe6e96ebbdc",
@@ -336759,7 +336972,7 @@
         "SHR07MYI"
       ],
       "subject_number": "38896",
-      "scraped_at": "2026-11-19T22:04:38.910616Z"
+      "scraped_at": "2026-11-20T03:21:15.863426Z"
     },
     {
       "booking_id": "9ef3ca12b1d4",
@@ -351935,7 +352148,7 @@
       "weight": "205.0 lbs",
       "address": "BALTIMORE, Maryland",
       "in_custody": "Yes",
-      "housing_facility": "",
+      "housing_facility": "Lorain County Jail",
       "booking_date": "4/27/2024 1:02 AM",
       "booking_date_raw": "4/27/2024 1:02 AM",
       "release_date": "4/29/2024 6:23 PM",
@@ -351993,13 +352206,15 @@
       ],
       "bonds": [],
       "mugshots": [
+        "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C52RGEE?type=Detail",
         "https://loraincooh-wii.publicsafety.tylerapp.com/Default/Inmate/Photo/1C524BQV?type=Detail"
       ],
       "photo_ids": [
+        "1C52RGEE",
         "1C524BQV"
       ],
       "subject_number": "542858",
-      "scraped_at": "2026-11-19T22:03:37.087731Z"
+      "scraped_at": "2026-11-20T03:20:28.996599Z"
     },
     {
       "booking_id": "97eb27d76a97",
@@ -358833,7 +359048,7 @@
         "1C506TTO"
       ],
       "subject_number": "148818",
-      "scraped_at": "2026-11-19T22:04:09.900824Z"
+      "scraped_at": "2026-11-20T03:20:48.808172Z"
     },
     {
       "booking_id": "c9bed98a60f2",
@@ -379588,7 +379803,7 @@
         "SHR08Q5N"
       ],
       "subject_number": "88481",
-      "scraped_at": "2026-11-19T22:04:20.023494Z"
+      "scraped_at": "2026-11-20T03:20:58.785729Z"
     },
     {
       "booking_id": "1609a299b7df",
@@ -392513,7 +392728,7 @@
         "1C51IPXE"
       ],
       "subject_number": "112192",
-      "scraped_at": "2026-11-19T22:04:07.647220Z"
+      "scraped_at": "2026-11-20T03:20:46.408640Z"
     },
     {
       "booking_id": "8a83ede9bb49",
@@ -396059,7 +396274,7 @@
         "1C51BQO0"
       ],
       "subject_number": "526486",
-      "scraped_at": "2026-11-19T22:04:05.469915Z"
+      "scraped_at": "2026-11-20T03:20:43.993476Z"
     },
     {
       "booking_id": "7b2d82c886e6",
@@ -403125,7 +403340,7 @@
         "1C507DN4"
       ],
       "subject_number": "502760",
-      "scraped_at": "2026-11-19T22:04:08.398211Z"
+      "scraped_at": "2026-11-20T03:20:47.208230Z"
     },
     {
       "booking_id": "31c3e5d46f54",
@@ -417810,7 +418025,7 @@
         "SHR06YYA"
       ],
       "subject_number": "12473",
-      "scraped_at": "2026-11-19T22:04:20.930098Z"
+      "scraped_at": "2026-11-20T03:20:59.522546Z"
     },
     {
       "booking_id": "fddd7f8fbdd1",
@@ -440807,7 +441022,7 @@
         "1C50O7KV"
       ],
       "subject_number": "81375",
-      "scraped_at": "2026-11-19T22:03:36.422492Z"
+      "scraped_at": "2026-11-20T03:20:28.285584Z"
     },
     {
       "booking_id": "4068f0722bc9",
@@ -461866,7 +462081,7 @@
         "1C52BS2P"
       ],
       "subject_number": "546462",
-      "scraped_at": "2026-11-19T22:04:37.700632Z"
+      "scraped_at": "2026-11-20T03:21:13.604175Z"
     },
     {
       "booking_id": "7e57e4d80265",
@@ -479862,7 +480077,7 @@
         "1C510AUA"
       ],
       "subject_number": "971",
-      "scraped_at": "2026-11-19T22:04:34.924857Z"
+      "scraped_at": "2026-11-20T03:21:09.955355Z"
     },
     {
       "booking_id": "57e4988565cd",
@@ -484460,7 +484675,7 @@
           "description": "Criminal Damaging",
           "counts": "1",
           "offense_date": "11/17/2026 1:03 PM",
-          "docket_number": "26CRB03053",
+          "docket_number": "26CRB02799",
           "crime_class": "",
           "arresting_agency": ""
         },
@@ -484567,33 +484782,18 @@
       "bonds": [
         {
           "bond_number": "2026-00010943",
-          "bond_type": "None",
-          "bond_amount": "$0.00"
+          "bond_type": "Cash/Surety",
+          "bond_amount": "$50,000.00"
         },
         {
           "bond_number": "2026-00010944",
           "bond_type": "None",
-          "bond_amount": "$0.00"
-        },
-        {
-          "bond_number": "2026-00010945",
-          "bond_type": "Cash/Surety",
-          "bond_amount": "$1,000.00"
-        },
-        {
-          "bond_number": "2026-00010946",
-          "bond_type": "Cash/Surety",
-          "bond_amount": "$500.00"
-        },
-        {
-          "bond_number": "2026-00010947",
-          "bond_type": "None",
-          "bond_amount": "$0.00"
+          "bond_amount": "$25,000.00"
         },
         {
           "bond_number": "2026-00010948",
           "bond_type": "10% or Cash Surety",
-          "bond_amount": "$750.00"
+          "bond_amount": "$5,000.00"
         },
         {
           "bond_number": "2026-00010976",
@@ -484626,7 +484826,7 @@
         "SHR086WB"
       ],
       "subject_number": "67519",
-      "scraped_at": "2026-11-19T22:03:43.824441Z"
+      "scraped_at": "2026-11-20T03:20:36.018704Z"
     },
     {
       "booking_id": "97be9f97a86c",
@@ -492273,11 +492473,6 @@
       ],
       "bonds": [
         {
-          "bond_number": "2026-00010998",
-          "bond_type": "Cash/Surety",
-          "bond_amount": "$1,500.00"
-        },
-        {
           "bond_number": "2026-00009718",
           "bond_type": "None",
           "bond_amount": "$0.00"
@@ -492308,7 +492503,7 @@
         "SHR07O3N"
       ],
       "subject_number": "40134",
-      "scraped_at": "2026-11-19T22:03:32.734499Z"
+      "scraped_at": "2026-11-20T03:20:24.289593Z"
     },
     {
       "booking_id": "64e3fb151db0",
@@ -512736,7 +512931,7 @@
         "1C510848"
       ],
       "subject_number": "133980",
-      "scraped_at": "2026-11-19T22:03:40.773432Z"
+      "scraped_at": "2026-11-20T03:20:32.690356Z"
     },
     {
       "booking_id": "92d5c468419a",
@@ -515285,7 +515480,7 @@
         "1C520W9Z"
       ],
       "subject_number": "541189",
-      "scraped_at": "2026-11-19T22:04:30.754615Z"
+      "scraped_at": "2026-11-20T03:21:04.853065Z"
     },
     {
       "booking_id": "795a50b62dc2",
@@ -561568,7 +561763,60 @@
         "1C52RFUO"
       ],
       "subject_number": "553954",
-      "scraped_at": "2026-11-19T22:04:06.847182Z"
+      "scraped_at": "2026-11-20T03:20:45.545663Z"
+    },
+    {
+      "booking_id": "d2190c07e9e2",
+      "inmate_id": "-1613727",
+      "name": "FISHER, JONATHON",
+      "dob": "08/21/2002",
+      "age": "24",
+      "gender": "Male",
+      "race": "Black/African American",
+      "height": "5' 9\"",
+      "weight": "135.0 lbs",
+      "address": "WELLINGTON, Ohio 44090",
+      "in_custody": "Yes",
+      "housing_facility": "Lorain County Jail",
+      "booking_date": "11/19/2026 8:33 PM",
+      "booking_date_raw": "11/19/2026 8:33 PM",
+      "release_date": "",
+      "booking_origin": "Wellington Police Department",
+      "prisoner_type": "New Arrest",
+      "classification": "MINIMUM",
+      "total_bond": "$0.00",
+      "total_bail": "$0.00",
+      "charges": [
+        {
+          "number": "2",
+          "description": "Domestic Violence",
+          "counts": "1",
+          "offense_date": "11/19/2026 8:42 PM",
+          "docket_number": "",
+          "crime_class": "",
+          "arresting_agency": ""
+        },
+        {
+          "number": "1",
+          "description": "Strangulation",
+          "counts": "1",
+          "offense_date": "11/19/2026 8:42 PM",
+          "docket_number": "",
+          "crime_class": "",
+          "arresting_agency": ""
+        }
+      ],
+      "bonds": [
+        {
+          "bond_number": "2026-00011048",
+          "bond_type": "None",
+          "bond_amount": "$0.00"
+        }
+      ],
+      "mugshots": [],
+      "photo_ids": [],
+      "subject_number": "553956",
+      "scraped_at": "2026-11-20T03:20:41.456358Z"
     },
     {
       "booking_id": "fe7e02ee3bb2",
@@ -562616,7 +562864,7 @@
         "1C52REVX"
       ],
       "subject_number": "553943",
-      "scraped_at": "2026-11-19T22:04:23.053501Z"
+      "scraped_at": "2026-11-20T03:21:00.942621Z"
     },
     {
       "booking_id": "c943b1e80f04",
@@ -562664,7 +562912,7 @@
         "1C52RFHE"
       ],
       "subject_number": "54602",
-      "scraped_at": "2026-11-19T22:04:14.159292Z"
+      "scraped_at": "2026-11-20T03:20:52.562574Z"
     },
     {
       "booking_id": "c3d73dd891dc",
@@ -562739,7 +562987,7 @@
         "1C52RFH8"
       ],
       "subject_number": "553944",
-      "scraped_at": "2026-11-19T22:04:15.521526Z"
+      "scraped_at": "2026-11-20T03:20:53.982800Z"
     },
     {
       "booking_id": "67b9c3a287bb",
@@ -563984,7 +564232,7 @@
         "1C52REKD"
       ],
       "subject_number": "553931",
-      "scraped_at": "2026-11-19T22:04:35.619660Z"
+      "scraped_at": "2026-11-20T03:21:10.663594Z"
     },
     {
       "booking_id": "b49e31ca026b",
@@ -564032,7 +564280,7 @@
         "1C52RDXJ"
       ],
       "subject_number": "553924",
-      "scraped_at": "2026-11-19T22:03:42.319704Z"
+      "scraped_at": "2026-11-20T03:20:34.399346Z"
     },
     {
       "booking_id": "4d7246e81b5b",
@@ -564083,7 +564331,7 @@
         "1C52RDVT"
       ],
       "subject_number": "553923",
-      "scraped_at": "2026-11-19T22:04:31.390371Z"
+      "scraped_at": "2026-11-20T03:21:05.537250Z"
     },
     {
       "booking_id": "91b0061b3cd6",
@@ -564131,7 +564379,7 @@
         "1C52REI6"
       ],
       "subject_number": "553364",
-      "scraped_at": "2026-11-19T22:04:27.500487Z"
+      "scraped_at": "2026-11-20T03:21:03.143861Z"
     },
     {
       "booking_id": "f1784eec8a1f",
@@ -564179,7 +564427,7 @@
         "1C52REJ1"
       ],
       "subject_number": "553930",
-      "scraped_at": "2026-11-19T22:04:21.594344Z"
+      "scraped_at": "2026-11-20T03:21:00.230541Z"
     },
     {
       "booking_id": "dd01d473d15f",
@@ -564245,7 +564493,7 @@
         "1C52REEQ"
       ],
       "subject_number": "553929",
-      "scraped_at": "2026-11-19T22:03:40.059599Z"
+      "scraped_at": "2026-11-20T03:20:31.934617Z"
     },
     {
       "booking_id": "5f3613fa277e",
@@ -564293,7 +564541,7 @@
         "1C52RDK7"
       ],
       "subject_number": "553922",
-      "scraped_at": "2026-11-19T22:04:14.856058Z"
+      "scraped_at": "2026-11-20T03:20:53.269825Z"
     },
     {
       "booking_id": "280d8c01d04e",
@@ -564341,7 +564589,7 @@
         "1C52RDJX"
       ],
       "subject_number": "553921",
-      "scraped_at": "2026-11-19T22:04:03.105063Z"
+      "scraped_at": "2026-11-20T03:20:40.754413Z"
     },
     {
       "booking_id": "9b7521f4b41a",
@@ -564389,7 +564637,7 @@
         "1C52RDXU"
       ],
       "subject_number": "553925",
-      "scraped_at": "2026-11-19T22:04:10.568388Z"
+      "scraped_at": "2026-11-20T03:20:49.518189Z"
     },
     {
       "booking_id": "c77dbd7331c8",
@@ -603088,7 +603336,7 @@
         "1C510OWQ"
       ],
       "subject_number": "71554",
-      "scraped_at": "2026-11-19T22:04:16.318916Z"
+      "scraped_at": "2026-11-20T03:20:54.841596Z"
     },
     {
       "booking_id": "2453a4559034",
@@ -612744,11 +612992,6 @@
       ],
       "bonds": [
         {
-          "bond_number": "2026-00010973",
-          "bond_type": "None",
-          "bond_amount": "$0.00"
-        },
-        {
           "bond_number": "2025-00007226",
           "bond_type": "None",
           "bond_amount": "$0.00"
@@ -612765,7 +613008,7 @@
         "1C51ZLRV"
       ],
       "subject_number": "540621",
-      "scraped_at": "2026-11-19T22:03:46.202831Z"
+      "scraped_at": "2026-11-20T03:20:38.379145Z"
     },
     {
       "booking_id": "03494ac4b8c5",
@@ -632873,7 +633116,7 @@
         "1C516XES"
       ],
       "subject_number": "99263",
-      "scraped_at": "2026-11-19T22:04:33.278145Z"
+      "scraped_at": "2026-11-20T03:21:07.344445Z"
     },
     {
       "booking_id": "fec2324dccc2",
@@ -643137,7 +643380,7 @@
         "1C50RTBV"
       ],
       "subject_number": "508473",
-      "scraped_at": "2026-11-19T22:04:25.747984Z"
+      "scraped_at": "2026-11-20T03:21:02.436504Z"
     },
     {
       "booking_id": "1f89ffd477a5",
@@ -644351,7 +644594,7 @@
         "1C519O97"
       ],
       "subject_number": "516115",
-      "scraped_at": "2026-11-19T22:03:39.241819Z"
+      "scraped_at": "2026-11-20T03:20:31.225704Z"
     },
     {
       "booking_id": "f23fc7fe7bae",
@@ -654096,7 +654339,7 @@
         "1C51XRSJ"
       ],
       "subject_number": "7747",
-      "scraped_at": "2026-11-19T22:04:04.745989Z"
+      "scraped_at": "2026-11-20T03:20:43.223000Z"
     },
     {
       "booking_id": "b8b80da605e9",
@@ -655956,7 +656199,7 @@
         "1C509X7T"
       ],
       "subject_number": "112690",
-      "scraped_at": "2026-11-19T22:03:34.948852Z"
+      "scraped_at": "2026-11-20T03:20:26.675640Z"
     },
     {
       "booking_id": "a8a6830a01fa",
